@@ -1,12 +1,11 @@
 from movie import Movie
 from rankingalgorithm import RankingSystem
-from moviereader import Reader
+from moviereader import MovieReader
 from writer import Writer
 
 def main():
     pass
     # read in movies list
-    # compare movies list to existing database
     # add new movies to the database
     # Begin loop
     # draw two movies from the database, prioritizing ones with fewer competitions

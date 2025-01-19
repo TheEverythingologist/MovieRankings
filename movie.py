@@ -25,3 +25,9 @@ class Movie:
 
     def getLetterboxdScore(self):
         pass
+
+    def __eq__(self, other: "Movie"):
+        if self.name == other.name and self.release_year == other.release_year:
+            return True
+        else:
+            return False

@@ -186,6 +186,7 @@ class RankingSystem:
     def getRandomCompetitors(self) -> tuple[_Competitor, _Competitor]:
         min_num_comps = min([_obj.num_competitions for _obj in self.players])
         sorted_list = [player for player in self.players if player.num_competitions == min_num_comps]
+        new_player = False
 
         if len(sorted_list) < 10:
             if len(sorted_list) == 1:

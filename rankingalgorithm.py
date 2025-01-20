@@ -1,3 +1,4 @@
+import random
 
 class _Competitor:
     """
@@ -11,7 +12,9 @@ class _Competitor:
             name (str): name of the competitor
             rating (float): initial rating of the competitor
         """
-        self.name = name
+        self.name:str = name
+        self.movie_name, self.movie_year = (self.name).split(' (', 1)
+        self.year = (self.movie_year).strip(')')
         self.rating = rating
         self.num_competitions = competitions
     
@@ -165,5 +168,14 @@ class RankingSystem:
 
     def addMultiplePlayers(self, player_list:list[tuple[str, str]]) -> None:
         for _player in player_list:
-            self.addPlayer(name=f"{_player[0]} ({_player[1]})", rating=_player[2], competitions=_player)
+            self.addPlayer(name=f"{_player[0]} ({_player[1]})", rating=_player[2], competitions=_player[3])
 
+    def getRandomCompetitors(self) -> tuple[_Competitor, _Competitor]:
+        min_num_comps = min([_obj.num_competitions for _obj in self.players])
+        sorted_list = [player for player in self.players if player.num_competitions == min_num_comps]
+        while len(sorted_list) < 2:
+            min_num_comps += 1
+            sorted_list += [player for player in self.players if player.num_competitions == min_num_comps]
+        # Randomize the list
+        random.shuffle(sorted_list)
+        return sorted_list[0], sorted_list[1]

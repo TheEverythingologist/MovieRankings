@@ -145,7 +145,7 @@ class RankingSystem:
         player2.rating = newRating2
         
         player1.num_competitions += 1
-        player2.num_competitions += 2
+        player2.num_competitions += 1
 
 
     def getPlayerRating(self, name:str) -> float:

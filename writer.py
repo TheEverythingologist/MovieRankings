@@ -20,11 +20,13 @@ class MovieWriter:
         return _df
     
     def update_database(self, movie_df:pd.DataFrame, movie1:_Competitor, movie2:_Competitor):
-        movie_df.loc[((movie_df.MovieName == movie1.movie_name) & (movie_df.ReleaseYear == movie1.movie_year)), "EloRating"] = int(movie1.rating)
-        movie_df.loc[((movie_df["Movie Name"] == movie1.movie_name) & (movie_df["Release Year"] == movie1.movie_year)), "TimesCompeted"] = movie1.num_competitions
+        criteria1 = ((movie_df["MovieName"] == movie1.movie_name) & (movie_df["ReleaseYear"] == int(movie1.movie_year)))
+        criteria2 = ((movie_df["MovieName"] == movie2.movie_name) & (movie_df["ReleaseYear"] == int(movie2.movie_year)))
+        movie_df.loc[criteria1, "EloRating"] = int(movie1.rating)
+        movie_df.loc[criteria1, "TimesCompeted"] = movie1.num_competitions
         # Update Movie 2
-        movie_df.loc[((movie_df["Movie Name"] == movie2.movie_name) & (movie_df["Release Year"] == movie2.movie_year)), "EloRating"] = int(movie2.rating)
-        movie_df.loc[((movie_df["Movie Name"] == movie2.movie_name) & (movie_df["Release Year"] == movie2.movie_year)), "TimesCompeted"] = movie2.num_competitions
+        movie_df.loc[criteria2, "EloRating"] = int(movie2.rating)
+        movie_df.loc[criteria2, "TimesCompeted"] = movie2.num_competitions
         # Update the rank column
-        movie_df.sort_values("Elo Rating")
+        movie_df = movie_df.sort_values(by="EloRating")
         return movie_df

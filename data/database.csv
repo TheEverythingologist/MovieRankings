@@ -1,1 +1,556 @@
-Movie Name, Release Year, ELO Score, Times Competed
+,Rank,Movie Name,Release Year,Elo Rating,Times Competed
+0,<class 'range'>,The Dark Knight,2008,2000,0
+1,<class 'range'>,The Social Network,2010,2000,0
+2,<class 'range'>,Star Wars: Episode V - The Empire Strikes Back,1980,2000,0
+3,<class 'range'>,The Shawshank Redemption,1994,2000,0
+4,<class 'range'>,Pulp Fiction,1994,2000,0
+5,<class 'range'>,Interstellar,2014,2000,0
+6,<class 'range'>,The Godfather,1972,2000,0
+7,<class 'range'>,Schindlerâ€™s List,1993,2000,0
+8,<class 'range'>,The Godfather Part 2,1974,2000,0
+9,<class 'range'>,Star Wars: Episode IV - A New Hope,1977,2000,0
+10,<class 'range'>,The Lord of the Rings: The Return of the King,2003,2000,0
+11,<class 'range'>,Back to the Future,1985,2000,0
+12,<class 'range'>,The Lord of the Rings: The Fellowship of the Ring,2001,2000,0
+13,<class 'range'>,The Lord of the Rings: The Two Towers,2002,2000,0
+14,<class 'range'>,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,2000,0
+15,<class 'range'>,Good Will Hunting,1997,2000,0
+16,<class 'range'>,Fight Club,1999,2000,0
+17,<class 'range'>,The Silence of the Lambs,1991,2000,0
+18,<class 'range'>,Inception,2010,2000,0
+19,<class 'range'>,Scott Pilgrim vs. The World,2010,2000,0
+20,<class 'range'>,The Martian,2015,2000,0
+21,<class 'range'>,Joker,2019,2000,0
+22,<class 'range'>,Your Name,2016,2000,0
+23,<class 'range'>,Everything Everywhere All At Once,2022,2000,0
+24,<class 'range'>,Saving Private Ryan,1998,2000,0
+25,<class 'range'>,Citizen Kane,1941,2000,0
+26,<class 'range'>,Forrest Gump,1994,2000,0
+27,<class 'range'>,The Big Short,2015,2000,0
+28,<class 'range'>,Terminator 2: Judgement Day,1991,2000,0
+29,<class 'range'>,The Holdovers,2023,2000,0
+30,<class 'range'>,Goodfellas,1990,2000,0
+31,<class 'range'>,Raiders of the Lost Ark,1981,2000,0
+32,<class 'range'>,The Prestige,2006,2000,0
+33,<class 'range'>,Spiderman: Into the Spiderverse,2018,2000,0
+34,<class 'range'>,WALL-E,2008,2000,0
+35,<class 'range'>,La La Land,2016,2000,0
+36,<class 'range'>,Se7en,1995,2000,0
+37,<class 'range'>,Lady Bird,2017,2000,0
+38,<class 'range'>,Ratatouille,2007,2000,0
+39,<class 'range'>,Oppenheimer,2023,2000,0
+40,<class 'range'>,Whisper of the Heart,1995,2000,0
+41,<class 'range'>,City of God,2002,2000,0
+42,<class 'range'>,Monty Python and the Holy Grail,1975,2000,0
+43,<class 'range'>,American Psycho,2000,2000,0
+44,<class 'range'>,Million Dollar Baby,2004,2000,0
+45,<class 'range'>,Moonlight,2016,2000,0
+46,<class 'range'>,The Dark Knight Rises,2012,2000,0
+47,<class 'range'>,Full Metal Jacket,1987,2000,0
+48,<class 'range'>,Inglourious Basterds,2009,2000,0
+49,<class 'range'>,Spirited Away,2001,2000,0
+50,<class 'range'>,Dead Poetsâ€™ Society,1989,2000,0
+51,<class 'range'>,Arrival,2016,2000,0
+52,<class 'range'>,Eternal Sunshine of the Spotless Mind,2004,2000,0
+53,<class 'range'>,All Quiet on the Western Front,2022,2000,0
+54,<class 'range'>,Puss in Boots: The Last Wish,2022,2000,0
+55,<class 'range'>,Barbie,2023,2000,0
+56,<class 'range'>,The Wind Rises,2013,2000,0
+57,<class 'range'>,Battle Royale,2000,2000,0
+58,<class 'range'>,Coco,2017,2000,0
+59,<class 'range'>,2001: A Space Odyssey,1968,2000,0
+60,<class 'range'>,Dunkirk,2017,2000,0
+61,<class 'range'>,Mad Max: Fury Road,2015,2000,0
+62,<class 'range'>,Akira,1988,2000,0
+63,<class 'range'>,The Disaster Artist,2017,2000,0
+64,<class 'range'>,Kill Bill Vol. 1,2003,2000,0
+65,<class 'range'>,The Terminator,1984,2000,0
+66,<class 'range'>,Alien,1979,2000,0
+67,<class 'range'>,1917,2019,2000,0
+68,<class 'range'>,The Iron Giant,1999,2000,0
+69,<class 'range'>,The Menu,2022,2000,0
+70,<class 'range'>,Whiplash,2014,2000,0
+71,<class 'range'>,The Incredibles,2004,2000,0
+72,<class 'range'>,The Grand Budapest Hotel,2014,2000,0
+73,<class 'range'>,The Great Dictator,1940,2000,0
+74,<class 'range'>,Princess Mononoke,1997,2000,0
+75,<class 'range'>,Poor Things,2023,2000,0
+76,<class 'range'>,Letters From Iwo Jima,2006,2000,0
+77,<class 'range'>,The Sixth Sense,1999,2000,0
+78,<class 'range'>,Avengers: Infinity War,2018,2000,0
+79,<class 'range'>,Shrek 2,2004,2000,0
+80,<class 'range'>,The Princess Bride,1987,2000,0
+81,<class 'range'>,No Country For Old Men,2007,2000,0
+82,<class 'range'>,To Kill A Mockingbird,1962,2000,0
+83,<class 'range'>,Star Wars: Episode VI - The Return of the Jedi,1983,2000,0
+84,<class 'range'>,Inside Out 2,2024,2000,0
+85,<class 'range'>,Saw,2004,2000,0
+86,<class 'range'>,How to Train Your Dragon,2010,2000,0
+87,<class 'range'>,Jaws,1975,2000,0
+88,<class 'range'>,A Quiet Place,2018,2000,0
+89,<class 'range'>,Avengers: Endgame,2019,2000,0
+90,<class 'range'>,Wicked,2024,2000,0
+91,<class 'range'>,Toy Story 2,1999,2000,0
+92,<class 'range'>,Kill Bill Vol. 2,2004,2000,0
+93,<class 'range'>,Jurassic Park,1993,2000,0
+94,<class 'range'>,Midsommar,2019,2000,0
+95,<class 'range'>,Hidden Figures,2016,2000,0
+96,<class 'range'>,My Neighbor Totoro,1988,2000,0
+97,<class 'range'>,Captain America: Civil War,2016,2000,0
+98,<class 'range'>,Spotlight,2015,2000,0
+99,<class 'range'>,Guardians of the Galaxy,2014,2000,0
+100,<class 'range'>,Kingsman: The Secret Service,2014,2000,0
+101,<class 'range'>,Star Wars: Episode VII - The Force Awakens,2015,2000,0
+102,<class 'range'>,The Lion King,1994,2000,0
+103,<class 'range'>,The Avengers,2012,2000,0
+104,<class 'range'>,Harry Potter and the Deathly Hallows Part 2,2011,2000,0
+105,<class 'range'>,Toy Story,1995,2000,0
+106,<class 'range'>,Toy Story 3,2010,2000,0
+107,<class 'range'>,Monty Pythonâ€™s Life of Brian,1979,2000,0
+108,<class 'range'>,The Imitation Game,2014,2000,0
+109,<class 'range'>,Captain America: The Winter Soldier,2014,2000,0
+110,<class 'range'>,Inside Out,2015,2000,0
+111,<class 'range'>,Iron Man,2008,2000,0
+112,<class 'range'>,Zootopia,2016,2000,0
+113,<class 'range'>,Little Women,2019,2000,0
+114,<class 'range'>,Deadpool,2016,2000,0
+115,<class 'range'>,The Truman Show,1998,2000,0
+116,<class 'range'>,Indiana Jones and the Last Crusade,1989,2000,0
+117,<class 'range'>,Pirates of the Caribbean: The Curse of the Black Pearl,2003,2000,0
+118,<class 'range'>,The Batman,2022,2000,0
+119,<class 'range'>,Star Wars: Episode III - The Revenge of the Sith,2005,2000,0
+120,<class 'range'>,The Revenant,2015,2000,0
+121,<class 'range'>,Spider-Man: No Way Home,2021,2000,0
+122,<class 'range'>,Banshees of Inisherin,2022,2000,0
+123,<class 'range'>,Spider-Man: Homecoming,2017,2000,0
+124,<class 'range'>,Argo,2012,2000,0
+125,<class 'range'>,WarGames,1983,2000,0
+126,<class 'range'>,Free Guy,2021,2000,0
+127,<class 'range'>,The Lego Batman Movie,2017,2000,0
+128,<class 'range'>,Deadpool 2,2018,2000,0
+129,<class 'range'>,Airplane!,1980,2000,0
+130,<class 'range'>,Saw 2,2005,2000,0
+131,<class 'range'>,Slumdog Millionaire,2008,2000,0
+132,<class 'range'>,Wonder Woman,2017,2000,0
+133,<class 'range'>,American Sniper,2014,2000,0
+134,<class 'range'>,South Park: Bigger Longer and Uncut,1999,2000,0
+135,<class 'range'>,Mulan,1998,2000,0
+136,<class 'range'>,Top Gun: Maverick,2022,2000,0
+137,<class 'range'>,Shrek,2001,2000,0
+138,<class 'range'>,Bridge of Spies,2015,2000,0
+139,<class 'range'>,The Lego Movie,2014,2000,0
+140,<class 'range'>,Encanto,2021,2000,0
+141,<class 'range'>,Kingsman: The Golden Circle,2017,2000,0
+142,<class 'range'>,Fantastic Mr. Fox,2009,2000,0
+143,<class 'range'>,E.T. the Extra-Terrestrial,1982,2000,0
+144,<class 'range'>,Spider-Man 2,2004,2000,0
+145,<class 'range'>,Moana,2016,2000,0
+146,<class 'range'>,Superbad,2007,2000,0
+147,<class 'range'>,Glass Onion: A Knives Out Mystery,2022,2000,0
+148,<class 'range'>,Chef,2014,2000,0
+149,<class 'range'>,Limitless,2011,2000,0
+150,<class 'range'>,King Richard,2021,2000,0
+151,<class 'range'>,Harry Potter and the Goblet of Fire,2005,2000,0
+152,<class 'range'>,Black Panther,2018,2000,0
+153,<class 'range'>,Harry Potter and the Order of the Phoenix,2007,2000,0
+154,<class 'range'>,Lilo & Stitch,2002,2000,0
+155,<class 'range'>,The Kingâ€™s Speech,2010,2000,0
+156,<class 'range'>,Batman Begins,2005,2000,0
+157,<class 'range'>,Nimona,2023,2000,0
+158,<class 'range'>,Avatar,2009,2000,0
+159,<class 'range'>,Up,2009,2000,0
+160,<class 'range'>,Thor: Ragnarok,2017,2000,0
+161,<class 'range'>,Ferris Buellerâ€™s Day Off,1986,2000,0
+162,<class 'range'>,Happy Feet,2006,2000,0
+163,<class 'range'>,Willy Wonka & the Chocolate Factory,1971,2000,0
+164,<class 'range'>,Ghostbusters,1984,2000,0
+165,<class 'range'>,Aladdin,1992,2000,0
+166,<class 'range'>,Steve Jobs,2015,2000,0
+167,<class 'range'>,Kung Fu Panda 2,2011,2000,0
+168,<class 'range'>,Sixteen Candles,2016,2000,0
+169,<class 'range'>,Her,2013,2000,0
+170,<class 'range'>,Isle of Dogs,2018,2000,0
+171,<class 'range'>,Hocus Pocus,1993,2000,0
+172,<class 'range'>,Elemental,2023,2000,0
+173,<class 'range'>,Spider-Man: Far From Home,2019,2000,0
+174,<class 'range'>,Rudy,1993,2000,0
+175,<class 'range'>,Finding Nemo,2003,2000,0
+176,<class 'range'>,Guardians of the Galaxy: Volume 2,2017,2000,0
+177,<class 'range'>,The Super Mario Bros. Movie,2023,2000,0
+178,<class 'range'>,Men in Black,1997,2000,0
+179,<class 'range'>,"Oâ€™Brother, Where Art Thou",2000,2000,0
+180,<class 'range'>,Big Hero 6,2014,2000,0
+181,<class 'range'>,The Breakfast Club,1985,2000,0
+182,<class 'range'>,District 9,2009,2000,0
+183,<class 'range'>,Kung Fu Panda,2008,2000,0
+184,<class 'range'>,Bohemian Rhapsody,2018,2000,0
+185,<class 'range'>,Friday the 13th,1980,2000,0
+186,<class 'range'>,Onward,2020,2000,0
+187,<class 'range'>,The Wizard of Oz,1939,2000,0
+188,<class 'range'>,Batman,1989,2000,0
+189,<class 'range'>,Stand and Deliver,1988,2000,0
+190,<class 'range'>,How to Train Your Dragon 2,2014,2000,0
+191,<class 'range'>,Beauty and the Beast,1991,2000,0
+192,<class 'range'>,Anchorman: The Legend of Ron Burgundy,2004,2000,0
+193,<class 'range'>,John Wick,2014,2000,0
+194,<class 'range'>,The Devil Wears Prada,2006,2000,0
+195,<class 'range'>,Avatar: The Way of Water,2022,2000,0
+196,<class 'range'>,Kung Fu Hustle,2004,2000,0
+197,<class 'range'>,Casino Royale,2006,2000,0
+198,<class 'range'>,Revenge of the Nerds,1984,2000,0
+199,<class 'range'>,The Outsiders,1983,2000,0
+200,<class 'range'>,Shaun of the Dead,2004,2000,0
+201,<class 'range'>,Mollyâ€™s Game,2017,2000,0
+202,<class 'range'>,Chicago,2002,2000,0
+203,<class 'range'>,Juno,2007,2000,0
+204,<class 'range'>,Frozen,2013,2000,0
+205,<class 'range'>,Top Gun,1986,2000,0
+206,<class 'range'>,Napoleon Dynamite,2004,2000,0
+207,<class 'range'>,The Hobbit: An Unexpected Journey,2012,2000,0
+208,<class 'range'>,Amazing Grace,2006,2000,0
+209,<class 'range'>,The Hunger Games: Catching Fire,2013,2000,0
+210,<class 'range'>,Despicable Me,2010,2000,0
+211,<class 'range'>,X-Men: Days of Future Past,2014,2000,0
+212,<class 'range'>,X-Men: First Class,2011,2000,0
+213,<class 'range'>,Star Trek,2009,2000,0
+214,<class 'range'>,Dumb and Dumber,1994,2000,0
+215,<class 'range'>,Caddyshack,1980,2000,0
+216,<class 'range'>,Doctor Strange,2016,2000,0
+217,<class 'range'>,The Hitchhikerâ€™s Guide to the Galaxy,2005,2000,0
+218,<class 'range'>,The Founder,2016,2000,0
+219,<class 'range'>,Rocky,1976,2000,0
+220,<class 'range'>,Back to the Future Part III,1990,2000,0
+221,<class 'range'>,Indiana Jones and the Temple of Doom,1984,2000,0
+222,<class 'range'>,Monsterâ€™s Inc,2001,2000,0
+223,<class 'range'>,Harry Potter and the Prisoner of Azkaban,2004,2000,0
+224,<class 'range'>,Atlantis: The Lost Empire,2001,2000,0
+225,<class 'range'>,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,2006,2000,0
+226,<class 'range'>,Lady and the Tramp,1955,2000,0
+227,<class 'range'>,Harry Potter and the Half-Blood Prince,2009,2000,0
+228,<class 'range'>,Mr. Peabody and Sherman,2014,2000,0
+229,<class 'range'>,Gifted,2017,2000,0
+230,<class 'range'>,Sonic the Hedgehog 3,2024,2000,0
+231,<class 'range'>,Watchmen,2009,2000,0
+232,<class 'range'>,Star Trek: Into Darkness,2013,2000,0
+233,<class 'range'>,Thor,2011,2000,0
+234,<class 'range'>,Frozen 2,2019,2000,0
+235,<class 'range'>,Avengers: Age of Ultron,2015,2000,0
+236,<class 'range'>,The Emperor's New Groove,2000,2000,0
+237,<class 'range'>,Office Space,1999,2000,0
+238,<class 'range'>,Sonic the Hedgehog 2,2022,2000,0
+239,<class 'range'>,Fried Green Tomatoes,1991,2000,0
+240,<class 'range'>,Gremlins,1984,2000,0
+241,<class 'range'>,My Hero Academia: The Movie,2018,2000,0
+242,<class 'range'>,The Great Gatsby,2013,2000,0
+243,<class 'range'>,Back to the Future Part 2,1989,2000,0
+244,<class 'range'>,Venom,2018,2000,0
+245,<class 'range'>,Sonic the Hedgehog,2020,2000,0
+246,<class 'range'>,The Right Stuff,1983,2000,0
+247,<class 'range'>,The Lego Ninjago Movie,2017,2000,0
+248,<class 'range'>,Black Widow,2021,2000,0
+249,<class 'range'>,Big Fish,2003,2000,0
+250,<class 'range'>,The Searchers,1956,2000,0
+251,<class 'range'>,Saw 4,2007,2000,0
+252,<class 'range'>,Paranorman,2012,2000,0
+253,<class 'range'>,Solo: A Star Wars Story,2018,2000,0
+254,<class 'range'>,Pirates of the Caribbean: Dead Manâ€™s Chest,2006,2000,0
+255,<class 'range'>,Man of Steel,2013,2000,0
+256,<class 'range'>,The Hunger Games,2012,2000,0
+257,<class 'range'>,Ace Ventura: Pet Detective,1994,2000,0
+258,<class 'range'>,Ant-Man,2015,2000,0
+259,<class 'range'>,Shrek Forever After,2010,2000,0
+260,<class 'range'>,Hocus Pocus 2,2022,2000,0
+261,<class 'range'>,The Fox and the Hound,1981,2000,0
+262,<class 'range'>,The Blind Side,2009,2000,0
+263,<class 'range'>,Star Trek: Beyond,2016,2000,0
+264,<class 'range'>,21,2008,2000,0
+265,<class 'range'>,The Crucible,1996,2000,0
+266,<class 'range'>,"I, Robot",2004,2000,0
+267,<class 'range'>,Finding Dory,2016,2000,0
+268,<class 'range'>,Harry Potter and the Sorcerer's Stone,2001,2000,0
+269,<class 'range'>,Transcendence,2014,2000,0
+270,<class 'range'>,Ace Ventura: When Nature Calls,1995,2000,0
+271,<class 'range'>,The Amazing Spider-Man,2012,2000,0
+272,<class 'range'>,Kick-Ass,2010,2000,0
+273,<class 'range'>,Luca,2021,2000,0
+274,<class 'range'>,Men in Black 3,2012,2000,0
+275,<class 'range'>,Doctor Strange in the Multiverse of Madness,2022,2000,0
+276,<class 'range'>,Final Destination,2000,2000,0
+277,<class 'range'>,Phineas and Ferb the Movie: Across the 2nd Dimension,2011,2000,0
+278,<class 'range'>,300,2006,2000,0
+279,<class 'range'>,Tangled,2010,2000,0
+280,<class 'range'>,Wreck-It Ralph,2012,2000,0
+281,<class 'range'>,Little Shop of Horrors,1986,2000,0
+282,<class 'range'>,The Mummy,1999,2000,0
+283,<class 'range'>,The Secret Life of Walter Mitty,2013,2000,0
+284,<class 'range'>,The Muppet Christmas Carol,1992,2000,0
+285,<class 'range'>,Idiocracy,2006,2000,0
+286,<class 'range'>,Dick Tracy,1990,2000,0
+287,<class 'range'>,Monsters University,2013,2000,0
+288,<class 'range'>,Megamind,2010,2000,0
+289,<class 'range'>,The 40-Year-Old Virgin,2005,2000,0
+290,<class 'range'>,A Nightmare on Elm Street 4: The Dream Master,1988,2000,0
+291,<class 'range'>,Dirty Dancing,1987,2000,0
+292,<class 'range'>,Evolution,2001,2000,0
+293,<class 'range'>,Murder on the Orient Express,2017,2000,0
+294,<class 'range'>,Cars 3,2017,2000,0
+295,<class 'range'>,Captain America: The First Avenger,2011,2000,0
+296,<class 'range'>,Incredibles 2,2018,2000,0
+297,<class 'range'>,Spiral,2021,2000,0
+298,<class 'range'>,The Hobbit: The Battle of the Five Armies,2014,2000,0
+299,<class 'range'>,Happy Feet Two,2011,2000,0
+300,<class 'range'>,Madagascar 3: Europeâ€™s Most Wanted,2012,2000,0
+301,<class 'range'>,A Bugâ€™s Life,1998,2000,0
+302,<class 'range'>,The Hobbit: The Desolation of Smaug,2013,2000,0
+303,<class 'range'>,Dr. Dolittle,1998,2000,0
+304,<class 'range'>,Annie,1982,2000,0
+305,<class 'range'>,Pacific Rim,2013,2000,0
+306,<class 'range'>,The Mask,1994,2000,0
+307,<class 'range'>,Brave,2012,2000,0
+308,<class 'range'>,Iâ€™m Totally Fine,2023,2000,0
+309,<class 'range'>,War of the Worlds,2005,2000,0
+310,<class 'range'>,The Greatest Showman,2017,2000,0
+311,<class 'range'>,How to Lose a Guy in 10 Days,2003,2000,0
+312,<class 'range'>,Tremors,1990,2000,0
+313,<class 'range'>,The Little Mermaid,1989,2000,0
+314,<class 'range'>,Spy Kids,2001,2000,0
+315,<class 'range'>,Star Wars: Episode VIII - The Last Jedi,2017,2000,0
+316,<class 'range'>,Christopher Robin,2018,2000,0
+317,<class 'range'>,Snow White and the Seven Dwarfs,1937,2000,0
+318,<class 'range'>,Chronicles of Narnia: Prince Caspian,2008,2000,0
+319,<class 'range'>,Robots,2005,2000,0
+320,<class 'range'>,My Girl,1991,2000,0
+321,<class 'range'>,The Peanuts Movie,2015,2000,0
+322,<class 'range'>,Madagascar,2005,2000,0
+323,<class 'range'>,The Muppets,2011,2000,0
+324,<class 'range'>,Tremors 3: Back to Perfection,2001,2000,0
+325,<class 'range'>,Cars,2006,2000,0
+326,<class 'range'>,The Book of Life,2014,2000,0
+327,<class 'range'>,Despicable Me 2,2013,2000,0
+328,<class 'range'>,The Sword in the Stone,1963,2000,0
+329,<class 'range'>,Iron Man 3,2013,2000,0
+330,<class 'range'>,Tarzan,1999,2000,0
+331,<class 'range'>,Kung Fu Panda 3,2016,2000,0
+332,<class 'range'>,Tremors II: Aftershocks,1996,2000,0
+333,<class 'range'>,The Tree of Life,2011,2000,0
+334,<class 'range'>,Harry Potter and the Deathly Hallows: Part 1,2010,2000,0
+335,<class 'range'>,The Princess and the Frog,2009,2000,0
+336,<class 'range'>,Thor: The Dark World,2013,2000,0
+337,<class 'range'>,Robin Hood,1973,2000,0
+338,<class 'range'>,Miss Congeniality,2000,2000,0
+339,<class 'range'>,Sleeping Beauty,1959,2000,0
+340,<class 'range'>,Peter Pan,1953,2000,0
+341,<class 'range'>,Spider-Man,2002,2000,0
+342,<class 'range'>,A Haunting in Venice,2023,2000,0
+343,<class 'range'>,Beauty and the Beast,2017,2000,0
+344,<class 'range'>,Cars 2,2011,2000,0
+345,<class 'range'>,Jurassic World,2015,2000,0
+346,<class 'range'>,Talladega Nights: The Ballad of Ricky Bobby,2006,2000,0
+347,<class 'range'>,Leo,2023,2000,0
+348,<class 'range'>,Harry Potter and the Chamber of Secrets,2002,2000,0
+349,<class 'range'>,Friday the 13th Part 2,1981,2000,0
+350,<class 'range'>,Shark Tale,2004,2000,0
+351,<class 'range'>,Madagascar 2: Escape to Africa,2008,2000,0
+352,<class 'range'>,Cloudy with a Chance of Meatballs,2009,2000,0
+353,<class 'range'>,Meet the Robinsons,2007,2000,0
+354,<class 'range'>,The Little Rascals,1994,2000,0
+355,<class 'range'>,Bee Movie,2007,2000,0
+356,<class 'range'>,101 Dalmatians,1996,2000,0
+357,<class 'range'>,Pirates of the Caribbean: At Worldâ€™s End,2007,2000,0
+358,<class 'range'>,Look Whoâ€™s Back,2015,2000,0
+359,<class 'range'>,The Aristocats,1970,2000,0
+360,<class 'range'>,The Spongebob Squarepants Movie,2004,2000,0
+361,<class 'range'>,Minutemen,2008,2000,0
+362,<class 'range'>,Iron Man 2,2010,2000,0
+363,<class 'range'>,National Treasure,2004,2000,0
+364,<class 'range'>,Ted,2012,2000,0
+365,<class 'range'>,Friday the 13th Part III,1982,2000,0
+366,<class 'range'>,"Chronicles of Narnia: The Lion, the Witch, and the Wardrobe",2005,2000,0
+367,<class 'range'>,Rango,2011,2000,0
+368,<class 'range'>,Space Jam,1996,2000,0
+369,<class 'range'>,The Day After Tomorrow,2004,2000,0
+370,<class 'range'>,The Dictator,2012,2000,0
+371,<class 'range'>,Casper,1995,2000,0
+372,<class 'range'>,Dr. Dolittle 2,2001,2000,0
+373,<class 'range'>,Jungle Cruise,2020,2000,0
+374,<class 'range'>,Shrek the Third,2007,2000,0
+375,<class 'range'>,Ghostbusters: Frozen Empire,2024,2000,0
+376,<class 'range'>,Jurassic World: Fallen Kingdom,2018,2000,0
+377,<class 'range'>,Ice Age,2002,2000,0
+378,<class 'range'>,The Fault in Our Stars,2014,2000,0
+379,<class 'range'>,The Amazing Spider-Man 2,2014,2000,0
+380,<class 'range'>,Spy Kids 2: Island of Lost Dreams,2002,2000,0
+381,<class 'range'>,Hoodwinked!,2005,2000,0
+382,<class 'range'>,Star Wars: Episode II - The Attack of the Clones,2002,2000,0
+383,<class 'range'>,Jurassic World: Dominion,2022,2000,0
+384,<class 'range'>,Charlie and the Chocolate Factory,2005,2000,0
+385,<class 'range'>,Open Season,2006,2000,0
+386,<class 'range'>,Planet 51,2009,2000,0
+387,<class 'range'>,Mean Girls,2004,2000,0
+388,<class 'range'>,Ice Age: The Meltdown,2006,2000,0
+389,<class 'range'>,Chicken Run,2000,2000,0
+390,<class 'range'>,Monsters vs. Aliens,2009,2000,0
+391,<class 'range'>,Bolt,2008,2000,0
+392,<class 'range'>,Star Wars: Episode I - The Phantom Menace,1999,2000,0
+393,<class 'range'>,Ice Age: Dawn of the Dinosaurs,2009,2000,0
+394,<class 'range'>,Hotel Transylvania,2012,2000,0
+395,<class 'range'>,Over the Hedge,2006,2000,0
+396,<class 'range'>,Saw 6,2009,2000,0
+397,<class 'range'>,Star Wars: Episode IX - The Rise of Skywalker,2019,2000,0
+398,<class 'range'>,Ammonium,2020,2000,0
+399,<class 'range'>,Weâ€™re the Millers,2013,2000,0
+400,<class 'range'>,Small Soldiers,1998,2000,0
+401,<class 'range'>,Open Season 2,2008,2000,0
+402,<class 'range'>,G-Force,2009,2000,0
+403,<class 'range'>,Hop,2011,2000,0
+404,<class 'range'>,Percy Jackson and the Olympians: The Lightning Thief,2010,2000,0
+405,<class 'range'>,Spider-Man 3,2007,2000,0
+406,<class 'range'>,Zathura: A Space Adventure,2005,2000,0
+407,<class 'range'>,Ice Age: Continental Drift,2012,2000,0
+408,<class 'range'>,The Meg,2018,2000,0
+409,<class 'range'>,Enchanted,2007,2000,0
+410,<class 'range'>,Diary of a Wimpy Kid,2010,2000,0
+411,<class 'range'>,Tremors 4: The Legend Begins,2004,2000,0
+412,<class 'range'>,Chicken Little,2005,2000,0
+413,<class 'range'>,Horton Hears a Who!,2008,2000,0
+414,<class 'range'>,Rio,2011,2000,0
+415,<class 'range'>,The Hunger Games: Mockingjay Part 2,2015,2000,0
+416,<class 'range'>,Flushed Away,2006,2000,0
+417,<class 'range'>,Now You See Me,2013,2000,0
+418,<class 'range'>,The Santa Clause,1994,2000,0
+419,<class 'range'>,Tinker Bell,2008,2000,0
+420,<class 'range'>,Diary of a Wimpy Kid: Rodrick Rules,2011,2000,0
+421,<class 'range'>,Lemonade Mouth,2011,2000,0
+422,<class 'range'>,Lady and the Tramp,2009,2000,0
+423,<class 'range'>,Despicable Me 3,2017,2000,0
+424,<class 'range'>,Smart House,1999,2000,0
+425,<class 'range'>,Ghostbusters,2016,2000,0
+426,<class 'range'>,Indiana Jones and the Kingdom of the Crystal Skull,2008,2000,0
+427,<class 'range'>,Battleship,2012,2000,0
+428,<class 'range'>,Let it Shine,2012,2000,0
+429,<class 'range'>,The Parent Trap,1998,2000,0
+430,<class 'range'>,Sing,2016,2000,0
+431,<class 'range'>,Diary of a Wimpy Kid: Dog Days,2012,2000,0
+432,<class 'range'>,Race to Witch Mountain,2009,2000,0
+433,<class 'range'>,Brother Bear,2003,2000,0
+434,<class 'range'>,Rio 2,2014,2000,0
+435,<class 'range'>,The Game Plan,2007,2000,0
+436,<class 'range'>,The Santa Clause 2,2002,2000,0
+437,<class 'range'>,Kick-Ass 2,2013,2000,0
+438,<class 'range'>,High School Musical,2006,2000,0
+439,<class 'range'>,Trolls,2016,2000,0
+440,<class 'range'>,Tooth Fairy,2010,2000,0
+441,<class 'range'>,Divergent,2014,2000,0
+442,<class 'range'>,World War Z,2013,2000,0
+443,<class 'range'>,National Treasure: Book of Secrets,2007,2000,0
+444,<class 'range'>,Real Steel,2011,2000,0
+445,<class 'range'>,Trolls Band Together,2023,2000,0
+446,<class 'range'>,Fireheart,2022,2000,0
+447,<class 'range'>,Sing 2,2021,2000,0
+448,<class 'range'>,The Santa Clause 3,2006,2000,0
+449,<class 'range'>,Gnomeo and Juliet,2011,2000,0
+450,<class 'range'>,Suicide Squad,2016,2000,0
+451,<class 'range'>,The Incredible Hulk,2008,2000,0
+452,<class 'range'>,The Ant Bully,2006,2000,0
+453,<class 'range'>,The Lorax,2012,2000,0
+454,<class 'range'>,Ramona and Beezus,2010,2000,0
+455,<class 'range'>,Looney Tunes: Back in Action,2003,2000,0
+456,<class 'range'>,Minions,2015,2000,0
+457,<class 'range'>,Lady and the Tramp 2: Scampâ€™s Adventure,2001,2000,0
+458,<class 'range'>,Wizards of Waverly Place: The Movie,2009,2000,0
+459,<class 'range'>,The Hunger Games: Mockingjay Part 1,2014,2000,0
+460,<class 'range'>,High School Musical 2,2007,2000,0
+461,<class 'range'>,Home on the Range,2004,2000,0
+462,<class 'range'>,Men in Black 2,2002,2000,0
+463,<class 'range'>,High School Musical 3: Senior Year,2008,2000,0
+464,<class 'range'>,The Little Mermaid 2: Return to the Sea,2000,2000,0
+465,<class 'range'>,Maleficent,2014,2000,0
+466,<class 'range'>,The Boss Baby,2017,2000,0
+467,<class 'range'>,Trolls World Tour,2020,2000,0
+468,<class 'range'>,Camp Rock 2: The Final Jam,2010,2000,0
+469,<class 'range'>,Hotel for Dogs,2009,2000,0
+470,<class 'range'>,Casper Meets Wendy,1998,2000,0
+471,<class 'range'>,Secret of the Wings,2012,2000,0
+472,<class 'range'>,Oz the Great and Powerful,2013,2000,0
+473,<class 'range'>,Alice in Wonderland,2010,2000,0
+474,<class 'range'>,Mirror Mirror,2012,2000,0
+475,<class 'range'>,Beverly Hills Chihuahua,2008,2000,0
+476,<class 'range'>,Fantastic Four,2005,2000,0
+477,<class 'range'>,Legally Blonde,2001,2000,0
+478,<class 'range'>,Shanghai Knights,2003,2000,0
+479,<class 'range'>,Lilo & Stitch 2: Stitch Has a Glitch,2005,2000,0
+480,<class 'range'>,This is the End,2013,2000,0
+481,<class 'range'>,Descendants,2015,2000,0
+482,<class 'range'>,Coyote Ugly,2000,2000,0
+483,<class 'range'>,Dadnapped,2009,2000,0
+484,<class 'range'>,Tinker Bell and the Lost Treasure,2009,2000,0
+485,<class 'range'>,The Suite Life Movie,2011,2000,0
+486,<class 'range'>,Monte Carlo,2011,2000,0
+487,<class 'range'>,Zookeeper,2011,2000,0
+488,<class 'range'>,Tinker Bell and the Great Fairy Rescue,2010,2000,0
+489,<class 'range'>,Parental Guidance,2012,2000,0
+490,<class 'range'>,The Boss Baby: Family Business,2021,2000,0
+491,<class 'range'>,Camp Rock,2008,2000,0
+492,<class 'range'>,Percy Jackson and the Olympians: Sea of Monsters,2013,2000,0
+493,<class 'range'>,Geek Charming,2011,2000,0
+494,<class 'range'>,Superman Returns,2006,2000,0
+495,<class 'range'>,The Waterboy,1998,2000,0
+496,<class 'range'>,Red One,2024,2000,0
+497,<class 'range'>,Spy Kids 3-D: Game Over,2003,2000,0
+498,<class 'range'>,Radio Rebel,2012,2000,0
+499,<class 'range'>,The Core,2003,2000,0
+500,<class 'range'>,Snow Buddies,2008,2000,0
+501,<class 'range'>,"Legally Blonde 2: Red, White & Blonde",2003,2000,0
+502,<class 'range'>,White House Down,2013,2000,0
+503,<class 'range'>,Legally Blondes,2009,2000,0
+504,<class 'range'>,Dr. Dolittle: Tail to the Chief,2008,2000,0
+505,<class 'range'>,Princess Protection Program,2009,2000,0
+506,<class 'range'>,Beverly Hills Chihuahua 2,2011,2000,0
+507,<class 'range'>,Leroy and Stitch,2006,2000,0
+508,<class 'range'>,Santa Buddies,2009,2000,0
+509,<class 'range'>,Robocop,2014,2000,0
+510,<class 'range'>,Monster House,2006,2000,0
+511,<class 'range'>,Girl vs. Monster,2012,2000,0
+512,<class 'range'>,The Pirate Fairy,2014,2000,0
+513,<class 'range'>,Escape from Planet Earth,2013,2000,0
+514,<class 'range'>,Volcano,1997,2000,0
+515,<class 'range'>,The DUFF,2015,2000,0
+516,<class 'range'>,Space Buddies,2009,2000,0
+517,<class 'range'>,The Monuments Men,2014,2000,0
+518,<class 'range'>,Ride Along,2014,2000,0
+519,<class 'range'>,Twitches,2005,2000,0
+520,<class 'range'>,Pitch Perfect,2012,2000,0
+521,<class 'range'>,"Good Luck Charlie, Itâ€™s Christmas!",2011,2000,0
+522,<class 'range'>,The Dog Who Saved Christmas,2009,2000,0
+523,<class 'range'>,Transformers,2007,2000,0
+524,<class 'range'>,Cloud 9,2014,2000,0
+525,<class 'range'>,Pitch Perfect 2,2015,2000,0
+526,<class 'range'>,Twilight,2008,2000,0
+527,<class 'range'>,Zapped,2014,2000,0
+528,<class 'range'>,Twitches Too,2007,2000,0
+529,<class 'range'>,Clueless,1995,2000,0
+530,<class 'range'>,Frenemies,2012,2000,0
+531,<class 'range'>,Teenage Mutant Ninja Turtles,2014,2000,0
+532,<class 'range'>,The Twilight Saga: Breaking Dawn - Part 2,2012,2000,0
+533,<class 'range'>,Sharpayâ€™s Fabulous Adventure,2011,2000,0
+534,<class 'range'>,Transformers: Revenge of the Fallen,2009,2000,0
+535,<class 'range'>,Avalon High,2010,2000,0
+536,<class 'range'>,The Twilight Saga: Breaking Dawn Part 1,2011,2000,0
+537,<class 'range'>,Transformers: Dark of the Moon,2011,2000,0
+538,<class 'range'>,How to Build a Better Boy,2014,2000,0
+539,<class 'range'>,Teen Beach Movie,2013,2000,0
+540,<class 'range'>,Zack and Miri Make a Porno,2008,2000,0
+541,<class 'range'>,Transformers: Age of Extinction,2014,2000,0
+542,<class 'range'>,Grown Ups,2010,2000,0
+543,<class 'range'>,Spellbound,2024,2000,0
+544,<class 'range'>,Bad Hair Day,2015,2000,0
+545,<class 'range'>,Tooth Fairy 2,2012,2000,0
+546,<class 'range'>,Teen Beach 2,2015,2000,0
+547,<class 'range'>,Bedtime Stories,2008,2000,0
+548,<class 'range'>,Pixels,2015,2000,0
+549,<class 'range'>,Human Centipede,2009,2000,0
+550,<class 'range'>,Batman & Robin,1997,2000,0
+551,<class 'range'>,Grown Ups 2,2013,2000,0
+552,<class 'range'>,After Earth,2013,2000,0
+553,<class 'range'>,The Last Airbender,2010,2000,0
+554,<class 'range'>,Jack and Jill,2011,2000,0

@@ -1,5 +1,6 @@
+import random
 from movie import Movie
-from rankingalgorithm import RankingSystem
+from rankingalgorithm import RankingSystem, _Competitor
 from moviereader import MovieReader
 from writer import MovieWriter
 from interface import Interface
@@ -21,12 +22,21 @@ def main():
     elo_system = RankingSystem()
     elo_system.addMultiplePlayers(movie_data_from_csv)
 
+    # Initialize interface
+    interface = Interface()
     # Begin loop
     while True:
         # Draw two movies from the database, prioritizing ones with fewer competitions
-        pass
+        competing_movies: list[_Competitor] = random.sample(elo_system.players, 2)
+        movie_a, movie_b = competing_movies
         # Have the two movies compete
-        # Calculate the new elo of the two movies
+        winner = interface.choose_option(movie_name1=movie_a.name, movie_name2=movie_b.name)
+        if winner in ['1', '2']:
+            # Calculate the new elo of the two movies
+            elo_system.recordMatch(movie_a.name, movie_b.name, winner=(competing_movies[int(winner)-1]).name)
+        elif winner == 'Q':
+            break
+        
         # Update the database
     # Repeat Loop 
 

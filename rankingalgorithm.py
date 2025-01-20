@@ -110,7 +110,7 @@ class RankingSystem:
         expected1 = player1.compareRating(player2)
         expected2 = player2.compareRating(player1)
         
-        k = len(self.__getPlayerList()) * 42
+        k = 32
 
         rating1 = player1.rating
         rating2 = player2.rating
@@ -165,5 +165,5 @@ class RankingSystem:
 
     def addMultiplePlayers(self, player_list:list[tuple[str, str]]) -> None:
         for _player in player_list:
-            self.addPlayer(name=f"{_player[0]} ({_player[1]})", rating=_player[2], competitions=_player[3])
+            self.addPlayer(name=f"{_player[0]} ({_player[1]})", rating=_player[2], competitions=_player)
 

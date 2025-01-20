@@ -1,6 +1,6 @@
 import keyboard
 class Interface:
-    def choose_option(movie_name1, movie_name2):
+    def choose_option(self, movie_name1, movie_name2):
         """
         Displays two options to the user, captures the choice (1 or 2) without requiring Enter,
         and logs the selection.
@@ -14,11 +14,14 @@ class Interface:
 
         choice = None
 
-        while choice not in ['1', '2']:
+        while choice not in ['1', '2', 'Q']:
             # Wait for a key press (non-blocking)
             if keyboard.is_pressed('1'):
                 choice = '1'
             elif keyboard.is_pressed('2'):
                 choice = '2'
+            # Press Q to quit the loop
+            elif keyboard.is_pressed('Q'):
+                choice = 'Q'
 
         return choice

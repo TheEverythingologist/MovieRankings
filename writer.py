@@ -28,5 +28,5 @@ class MovieWriter:
         movie_df.loc[criteria2, "EloRating"] = int(movie2.rating)
         movie_df.loc[criteria2, "TimesCompeted"] = movie2.num_competitions
         # Update the rank column
-        movie_df = movie_df.sort_values(by="EloRating")
+        movie_df = movie_df.sort_values(by="EloRating", ascending=False)
         return movie_df

@@ -10,18 +10,6 @@ class Interface:
 
         print(f"Option 1: {option1}")
         print(f"Option 2: {option2}")
-        print("\nPress '1' for Option 1 or '2' for Option 2.")
+        user_input = input("\nPress '1' for Option 1 or '2' for Option 2.\n")
 
-        choice = None
-
-        while choice not in ['1', '2', 'Q']:
-            # Wait for a key press (non-blocking)
-            if keyboard.is_pressed('1'):
-                choice = '1'
-            elif keyboard.is_pressed('2'):
-                choice = '2'
-            # Press Q to quit the loop
-            elif keyboard.is_pressed('Q'):
-                choice = 'Q'
-
-        return choice
+        return user_input

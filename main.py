@@ -1,4 +1,5 @@
 import random
+import pandas as pd
 from movie import Movie
 from rankingalgorithm import RankingSystem, _Competitor
 from moviereader import MovieReader
@@ -15,12 +16,13 @@ def main():
     path_to_database = "C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv"
     movie_writer = MovieWriter()
     movie_df = movie_writer.generate_new_movie_df(list_of_new_movies=new_movies_list)
-    movie_writer.write_to_csv(dataframe=movie_df, file_name=path_to_database)
+    movie_writer.add_to_csv(dataframe=movie_df, file_name=path_to_database)
 
     # Setup the elo system
     movie_data_from_csv = movie_reader.read_database("C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv")
     elo_system = RankingSystem()
     elo_system.addMultiplePlayers(movie_data_from_csv)
+    movie_df = pd.read_csv(path_to_database)
 
     # Initialize interface
     interface = Interface()
@@ -34,7 +36,7 @@ def main():
         if winner in ['1', '2']:
             # Calculate the new elo of the two movies
             elo_system.recordMatch(movie_a.name, movie_b.name, winner=(competing_movies[int(winner)-1]).name)
-        elif winner == 'Q':
+        elif winner == 'q':
             break
         # Update the database
         movie_df = movie_writer.update_database(movie_df=movie_df, movie1=movie_a, movie2=movie_b)

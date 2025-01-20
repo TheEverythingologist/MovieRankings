@@ -1,6 +1,7 @@
 import csv
 
 class MovieReader:
+    #TODO There is some kind of issue regarding single quotes. Currently I have to manually add double quotes around the movie title. 
     def __init__(self):
         pass
 
@@ -52,10 +53,10 @@ class MovieReader:
                 reader = csv.DictReader(file)
                 for row in reader:
                     try:
-                        name = row['MovieName'].strip()
+                        name = row["MovieName"].strip()
                         year = int(float(row["ReleaseYear"]))
-                        elo = int(row['EloRating'])
-                        num_comp = int(row['TimesCompeted'])
+                        elo = int(row["EloRating"])
+                        num_comp = int(row["TimesCompeted"])
                         result.append((name, year, elo, num_comp))
                     except (KeyError, ValueError):
                         print(f"Skipping malformed row: {row}")

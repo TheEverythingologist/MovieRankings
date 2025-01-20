@@ -30,4 +30,6 @@ class MovieWriter:
         # Update the rank column
         movie_df = movie_df.sort_values(by="EloRating", ascending=False)
         movie_df["Rank"] = range(1, len(movie_df) + 1)
+        movie_df["ReleaseYear"] = movie_df["ReleaseYear"].astype(float)
+        movie_df["ReleaseYear"] = movie_df["ReleaseYear"].astype("Int64")
         return movie_df

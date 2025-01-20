@@ -37,14 +37,14 @@ class MovieReader:
     
     def read_database(self, file_path) -> list[tuple[str, str]]:
         """
-        Reads a CSV file with columns "Movie Name" and "Release Year"
-        and returns a list of tuples in the format [(Name, Year), ...].
+        Reads a CSV file with columns "Movie Name" and "Elo Rating"
+        and returns a list of tuples in the format [(Name, Year, Elo), ...].
 
         Args:
             file_path (str): Filepath to the movie database.
 
         Return:
-            list[tuple[str, str]]: List of tuples [(Name, Year), ...]
+            list[tuple[str, str]]: List of tuples [(Name, Year, Elo), ...]
         """
         result = []
         try:
@@ -53,8 +53,10 @@ class MovieReader:
                 for row in reader:
                     try:
                         name = row['Movie Name'].strip()
-                        year = int(row['Release Year'].strip())
-                        result.append((name, year))
+                        year = int(row["Release Year"].strip())
+                        elo = int(row['Elo Rating'].strip())
+                        num_comp = int(row['Times Competed'].strip())
+                        result.append((name, year, elo, num_comp))
                     except (KeyError, ValueError):
                         print(f"Skipping malformed row: {row}")
         except FileNotFoundError:

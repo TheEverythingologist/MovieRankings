@@ -4,7 +4,7 @@ class _Competitor:
     A class to represent a competitor in the Elo Rating System.
     """
 
-    def __init__(self, name:str, rating:float):
+    def __init__(self, name:str, rating:float, competitions:int):
         """
         Runs at initialization of class object.
         Args:
@@ -13,6 +13,7 @@ class _Competitor:
         """
         self.name = name
         self.rating = rating
+        self.num_competitions = competitions
     
     def compareRating(self, opponent: "_Competitor"):
         """
@@ -72,7 +73,7 @@ class RankingSystem:
                 return True
         return False
     
-    def addPlayer(self, name:str, rating:float=None):
+    def addPlayer(self, name:str, rating:float=None, competitions:int=0):
         """
         Adds a new player to the implementation.
 
@@ -82,7 +83,7 @@ class RankingSystem:
         """
         if rating == None:
             rating = self.base_rating
-        self.players.append(_Competitor(name=name, rating=rating))
+        self.players.append(_Competitor(name=name, rating=rating, competitions=competitions))
 
     def removePlayer(self, name:str):
         """
@@ -161,4 +162,8 @@ class RankingSystem:
             list: a tuple containing (name, rating)
         """
         lst = [(player.name, player.rating) for player in self.__getPlayerList]
+
+    def addMultiplePlayers(self, player_list:list[tuple[str, str]]) -> None:
+        for _player in player_list:
+            self.addPlayer(name=f"{_player[0]} ({_player[1]})", rating=_player[2], competitions=_player[3])
 

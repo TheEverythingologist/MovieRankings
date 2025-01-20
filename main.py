@@ -16,11 +16,18 @@ def main():
     new_movie_df = movie_writer.generate_new_movie_dataframe(list_of_new_movies=new_movies_list)
     movie_writer.write_to_csv(dataframe=new_movie_df, file_name=path_to_database)
 
+    # Setup the elo system
+    movie_data_from_csv = movie_reader.read_database("C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv")
+    elo_system = RankingSystem()
+    elo_system.addMultiplePlayers(movie_data_from_csv)
+
     # Begin loop
-    # Draw two movies from the database, prioritizing ones with fewer competitions
-    # Have the two movies compete
-    # Calculate the new elo of the two movies
-    # Update the database
+    while True:
+        # Draw two movies from the database, prioritizing ones with fewer competitions
+        pass
+        # Have the two movies compete
+        # Calculate the new elo of the two movies
+        # Update the database
     # Repeat Loop 
 
 

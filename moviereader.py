@@ -52,10 +52,10 @@ class MovieReader:
                 reader = csv.DictReader(file)
                 for row in reader:
                     try:
-                        name = row['Movie Name'].strip()
-                        year = int(row["Release Year"].strip())
-                        elo = int(row['Elo Rating'].strip())
-                        num_comp = int(row['Times Competed'].strip())
+                        name = row['MovieName'].strip()
+                        year = int(row["ReleaseYear"].strip())
+                        elo = int(row['EloRating'].strip())
+                        num_comp = int(row['TimesCompeted'].strip())
                         result.append((name, year, elo, num_comp))
                     except (KeyError, ValueError):
                         print(f"Skipping malformed row: {row}")

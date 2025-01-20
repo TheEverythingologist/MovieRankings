@@ -14,7 +14,7 @@ class _Competitor:
         """
         self.name:str = name
         self.movie_name, self.movie_year = (self.name).split(' (', 1)
-        self.year = (self.movie_year).strip(')')
+        self.movie_year = (self.movie_year).strip(')')
         self.rating = rating
         self.num_competitions = competitions
     
@@ -143,6 +143,10 @@ class RankingSystem:
 
         player1.rating = newRating1
         player2.rating = newRating2
+        
+        player1.num_competitions += 1
+        player2.num_competitions += 2
+
 
     def getPlayerRating(self, name:str) -> float:
         """

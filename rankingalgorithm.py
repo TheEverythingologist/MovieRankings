@@ -174,12 +174,34 @@ class RankingSystem:
         for _player in player_list:
             self.addPlayer(name=f"{_player[0]} ({_player[1]})", rating=_player[2], competitions=_player[3])
 
+
+    def find_closest_competitors_by_rating(self, player: _Competitor, sorted_players:list[_Competitor]) -> _Competitor:
+        player_rating = player.rating
+        sorted_players = sorted(sorted_players, key=lambda p: abs(getattr(p, "rating", float('inf')) - player_rating))
+        # Return the closest n objects, excluding the given player itself if present in the list
+        n = min(10, len(sorted_players))
+        return [p for p in sorted_players if p != player][:n]
+
+
     def getRandomCompetitors(self) -> tuple[_Competitor, _Competitor]:
         min_num_comps = min([_obj.num_competitions for _obj in self.players])
         sorted_list = [player for player in self.players if player.num_competitions == min_num_comps]
-        while len(sorted_list) < 2:
-            min_num_comps += 1
-            sorted_list += [player for player in self.players if player.num_competitions == min_num_comps]
-        # Randomize the list
-        random.shuffle(sorted_list)
-        return sorted_list[0], sorted_list[1]
+
+        if len(sorted_list) < 10:
+            if len(sorted_list) == 1:
+                # If there is only 1 movie with the minimum number of completions, remove it from the list, then continue populating it.
+                player1: _Competitor = sorted_list.pop()
+                closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=self.players)
+                new_player = True
+            while len(sorted_list) < 10:
+                min_num_comps += 1
+                sorted_list += [player for player in self.players if player.num_competitions == min_num_comps]
+                if len(sorted_list) >= 10 and new_player == False:
+                    player1: _Competitor = sorted_list.pop()
+                    closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=sorted_list)
+        else:
+            # Choose player 1 randomly since the player pool is large enough
+            player1 = sorted_list.pop(random.randint(0, len(sorted_list)))
+            closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=sorted_list)
+        # Matchmake player 1 to find a close competitor for it
+        return player1, random.choice(closest_players)

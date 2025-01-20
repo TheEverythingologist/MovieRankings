@@ -13,9 +13,9 @@ class MovieWriter:
 
     def generate_new_movie_dataframe(self, list_of_new_movies: list[tuple[str, str]]):
         _df = pd.DataFrame(list_of_new_movies, columns=["Movie Name", "Release Year"])
-        _df["Elo Rating"] = 2000
+        _df["Elo Rating"] = range(2000 + len(_df)//2 + 1, 2000 - len(_df)//2, -1)
         _df["Times Competed"] = 0
-        _df.insert(0, "Rank", range)
+        _df.insert(0, "Rank", range(1, len(_df) + 1))  # Add "Rank" as the leftmost column
         return _df
     
     def update_database(self, movie1:Movie, movie2:Movie):

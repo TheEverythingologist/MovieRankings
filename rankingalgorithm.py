@@ -30,7 +30,7 @@ class RankingSystem:
     A class that allows for an elo system implementation to rank various competitors.
     """
 
-    def __init__(self, base_rating: float = 1000):
+    def __init__(self, base_rating: float = 2000):
         """
         Initialize the class object.
 

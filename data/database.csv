@@ -1,556 +1,556 @@
 Rank,MovieName,ReleaseYear,EloRating,TimesCompeted
-1,The Shawshank Redemption,1994,1304,3
-2,Star Wars: Episode V - The Empire Strikes Back,1980,1295,2
-3,The Dark Knight,2008,1291,2
-4,The Godfather Part 2,1974,1290,3
-5,The Social Network,2010,1289,3
-6,Star Wars: Episode IV - A New Hope,1977,1288,3
-7,The Lord of the Rings: The Two Towers,2002,1281,2
-8,Pulp Fiction,1994,1280,2
-9,Schindler's List,1993,1279,2
-10,Interstellar,2014,1278,2
-11,The Silence of the Lambs,1991,1278,2
-12,The Godfather,1972,1278,3
-13,The Lord of the Rings: The Fellowship of the Ring,2001,1277,2
-14,Scott Pilgrim vs. The World,2010,1275,2
-15,Inception,2010,1273,3
-16,The Lord of the Rings: The Return of the King,2003,1272,2
-17,La La Land,2016,1271,3
-18,The Martian,2015,1271,2
-19,Good Will Hunting,1997,1270,3
-20,Fight Club,1999,1269,2
-21,Forrest Gump,1994,1269,2
-22,Saving Private Ryan,1998,1268,2
-23,The Prestige,2006,1267,2
-24,Joker,2019,1267,2
-25,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,1266,2
-26,Your Name,2016,1266,3
-27,Terminator 2: Judgement Day,1991,1265,2
-28,The Holdovers,2023,1265,3
-29,Everything Everywhere All At Once,2022,1265,2
-30,The Big Short,2015,1265,2
-31,Spiderman: Into the Spiderverse,2018,1261,3
-32,Oppenheimer,2023,1259,2
-33,Arrival,2016,1259,3
-34,Raiders of the Lost Ark,1981,1258,2
-35,Goodfellas,1990,1256,2
-36,Back to the Future,1985,1255,2
-37,WALL-E,2008,1255,2
-38,Ratatouille,2007,1255,3
-39,Monty Python and the Holy Grail,1975,1253,3
-40,Se7en,1995,1252,3
-41,Lady Bird,2017,1251,2
-42,The Wind Rises,2013,1248,3
-43,Inglourious Basterds,2009,1248,2
-44,Moonlight,2016,1247,3
-45,All Quiet on the Western Front,2022,1246,2
-46,Full Metal Jacket,1987,1245,3
-47,Dunkirk,2017,1243,3
-48,Whisper of the Heart,1995,1243,2
-49,Million Dollar Baby,2004,1242,3
-50,Citizen Kane,1941,1241,2
-51,City of God,2002,1240,2
-52,Barbie,2023,1239,3
-53,The Terminator,1984,1239,3
-54,Dead Poets' Society,1989,1238,3
-55,Puss in Boots: The Last Wish,2022,1236,2
-56,The Grand Budapest Hotel,2014,1236,3
-57,Poor Things,2023,1235,2
-58,Spirited Away,2001,1235,2
-59,The Dark Knight Rises,2012,1233,3
-60,American Psycho,2000,1232,2
-61,Eternal Sunshine of the Spotless Mind,2004,1230,2
-62,2001: A Space Odyssey,1968,1228,2
-63,Akira,1988,1228,2
-64,Letters From Iwo Jima,2006,1227,3
-65,Mad Max: Fury Road,2015,1224,2
-66,The Iron Giant,1999,1223,3
-67,Whiplash,2014,1222,2
-68,The Sixth Sense,1999,1221,3
-69,Shrek 2,2004,1214,2
-70,A Quiet Place,2018,1214,3
-71,Inside Out 2,2024,1213,3
-72,Saw,2004,1211,2
-73,The Princess Bride,1987,1210,2
-74,Battle Royale,2000,1209,2
-75,Wicked,2024,1209,2
-76,To Kill A Mockingbird,1962,1208,2
-77,No Country For Old Men,2007,1207,2
-78,Coco,2017,1206,2
-79,1917,2019,1206,3
-80,Kill Bill Vol. 1,2003,1205,3
-81,Midsommar,2019,1203,3
-82,The Disaster Artist,2017,1202,2
-83,Avengers: Endgame,2019,1201,3
-84,Alien,1979,1200,2
-85,Star Wars: Episode VII - The Force Awakens,2015,1200,2
-86,Harry Potter and the Deathly Hallows Part 2,2011,1199,2
-87,Jaws,1975,1199,3
-88,Princess Mononoke,1997,1198,3
-89,My Neighbor Totoro,1988,1198,2
-90,Kill Bill Vol. 2,2004,1197,3
-91,Jurassic Park,1993,1196,3
-92,Pirates of the Caribbean: The Curse of the Black Pearl,2003,1195,2
-93,The Incredibles,2004,1193,2
-94,The Menu,2022,1190,3
-95,Star Wars: Episode VI - The Return of the Jedi,1983,1189,3
-96,Avengers: Infinity War,2018,1188,2
-97,How to Train Your Dragon,2010,1187,3
-98,The Imitation Game,2014,1187,3
-99,Monty Python's Life of Brian,1979,1185,2
-100,Spotlight,2015,1185,3
-101,South Park: Bigger Longer and Uncut,1999,1182,3
-102,Zootopia,2016,1181,2
-103,Banshees of Inisherin,2022,1179,3
-104,The Revenant,2015,1179,2
-105,Toy Story,1995,1179,2
-106,The Batman,2022,1177,2
-107,Indiana Jones and the Last Crusade,1989,1177,2
-108,Captain America: Civil War,2016,1177,2
-109,Little Women,2019,1176,2
-110,Kingsman: The Secret Service,2014,1176,3
-111,Toy Story 2,1999,1173,2
-112,Iron Man,2008,1171,2
-113,The Lion King,1994,1171,2
-114,The Truman Show,1998,1168,2
-115,Spider-Man: Homecoming,2017,1168,3
-116,Star Wars: Episode III - The Revenge of the Sith,2005,1167,2
-117,Hidden Figures,2016,1167,2
-118,Captain America: The Winter Soldier,2014,1166,2
-119,Moana,2016,1164,2
-120,Deadpool,2016,1164,2
-121,Kung Fu Panda 2,2011,1162,3
-122,Argo,2012,1162,2
-123,Shrek,2001,1161,2
-124,The Avengers,2012,1160,2
-125,Inside Out,2015,1159,2
-126,WarGames,1983,1159,2
-127,The Lego Movie,2014,1157,3
-128,The Great Dictator,1940,1153,2
-129,Top Gun: Maverick,2022,1153,2
-130,King Richard,2021,1151,2
-131,Lilo & Stitch,2002,1149,3
-132,Glass Onion: A Knives Out Mystery,2022,1147,2
-133,Superbad,2007,1146,2
-134,Encanto,2021,1146,2
-135,The King's Speech,2010,1146,3
-136,American Sniper,2014,1145,2
-137,Guardians of the Galaxy,2014,1145,3
-138,Spider-Man 2,2004,1144,2
-139,Toy Story 3,2010,1142,2
-140,Limitless,2011,1142,2
-141,Chef,2014,1141,3
-142,The Lego Batman Movie,2017,1141,2
-143,Mulan,1998,1139,3
-144,Her,2013,1138,2
-145,Bridge of Spies,2015,1137,2
-146,Airplane!,1980,1135,3
-147,Nimona,2023,1135,2
-148,Batman Begins,2005,1135,3
-149,E.T. the Extra-Terrestrial,1982,1132,2
-150,Wonder Woman,2017,1132,3
-151,Ghostbusters,1984,1130,2
-152,Steve Jobs,2015,1129,2
-153,Kingsman: The Golden Circle,2017,1129,2
-154,Deadpool 2,2018,1129,2
-155,Aladdin,1992,1129,2
-156,Free Guy,2021,1128,2
-157,Spider-Man: No Way Home,2021,1128,3
-158,Finding Nemo,2003,1126,2
-159,Saw 2,2005,1125,2
-160,Harry Potter and the Goblet of Fire,2005,1124,2
-161,Slumdog Millionaire,2008,1122,3
-162,Isle of Dogs,2018,1119,3
-163,Avatar,2009,1119,3
-164,Friday the 13th,1980,1119,2
-165,Thor: Ragnarok,2017,1119,3
-166,"O'Brother, Where Art Thou",2000,1117,3
-167,Black Panther,2018,1116,3
-168,Onward,2020,1115,2
-169,Ferris Bueller's Day Off,1986,1115,2
-170,The Wizard of Oz,1939,1115,2
-171,Rudy,1993,1115,2
-172,Willy Wonka & the Chocolate Factory,1971,1113,2
-173,Men in Black,1997,1113,2
-174,Up,2009,1113,3
-175,Fantastic Mr. Fox,2009,1112,3
-176,Beauty and the Beast,1991,1109,2
-177,Spider-Man: Far From Home,2019,1107,2
-178,Bohemian Rhapsody,2018,1105,3
-179,The Breakfast Club,1985,1105,3
-180,Happy Feet,2006,1105,3
-181,Kung Fu Panda,2008,1100,2
-182,Harry Potter and the Order of the Phoenix,2007,1100,2
-183,Chicago,2002,1099,3
-184,Casino Royale,2006,1098,2
-185,How to Train Your Dragon 2,2014,1098,2
-186,Rocky,1976,1098,3
-187,Kung Fu Hustle,2004,1097,2
-188,The Super Mario Bros. Movie,2023,1095,2
-189,Guardians of the Galaxy: Volume 2,2017,1094,2
-190,Caddyshack,1980,1091,3
-191,Anchorman: The Legend of Ron Burgundy,2004,1089,2
-192,Molly's Game,2017,1089,2
-193,The Outsiders,1983,1089,2
-194,Elemental,2023,1088,2
-195,Hocus Pocus,1993,1087,3
-196,John Wick,2014,1085,2
-197,Batman,1989,1085,2
-198,Big Hero 6,2014,1084,2
-199,Dumb and Dumber,1994,1084,2
-200,Shaun of the Dead,2004,1084,2
-201,District 9,2009,1083,2
-202,Sixteen Candles,2016,1083,3
-203,Indiana Jones and the Temple of Doom,1984,1078,3
-204,The Devil Wears Prada,2006,1076,2
-205,Sonic the Hedgehog 3,2024,1074,2
-206,Avatar: The Way of Water,2022,1073,3
-207,Harry Potter and the Prisoner of Azkaban,2004,1072,2
-208,Stand and Deliver,1988,1072,3
-209,Doctor Strange,2016,1072,2
-210,Juno,2007,1072,2
-211,Back to the Future Part 2,1989,1071,3
-212,Napoleon Dynamite,2004,1068,2
-213,Office Space,1999,1067,3
-214,Top Gun,1986,1066,2
-215,Amazing Grace,2006,1066,2
-216,Despicable Me,2010,1065,2
-217,Avengers: Age of Ultron,2015,1065,3
-218,Revenge of the Nerds,1984,1064,3
-219,Watchmen,2009,1063,2
-220,Atlantis: The Lost Empire,2001,1062,2
-221,X-Men: First Class,2011,1061,2
-222,The Hobbit: An Unexpected Journey,2012,1058,3
-223,The Hunger Games: Catching Fire,2013,1057,3
-224,Fried Green Tomatoes,1991,1056,2
-225,Monster's Inc,2001,1053,2
-226,Back to the Future Part III,1990,1051,2
-227,X-Men: Days of Future Past,2014,1051,2
-228,Star Trek,2009,1049,3
-229,Man of Steel,2013,1049,3
-230,Gifted,2017,1049,3
-231,My Hero Academia: The Movie,2018,1048,2
-232,Harry Potter and the Half-Blood Prince,2009,1040,3
-233,Frozen,2013,1040,3
-234,The Founder,2016,1040,2
-235,The Great Gatsby,2013,1039,2
-236,Paranorman,2012,1038,3
-237,The Fox and the Hound,1981,1038,2
-238,The Hunger Games,2012,1038,3
-239,Sonic the Hedgehog,2020,1037,3
-240,Gremlins,1984,1037,2
-241,Mr. Peabody and Sherman,2014,1037,2
-242,Sonic the Hedgehog 2,2022,1036,2
-243,The Hitchhiker's Guide to the Galaxy,2005,1035,3
-244,Wreck-It Ralph,2012,1035,3
-245,Shrek Forever After,2010,1035,2
-246,Big Fish,2003,1034,3
-247,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,2006,1034,2
-248,The Lego Ninjago Movie,2017,1030,2
-249,Saw 4,2007,1027,3
-250,Ant-Man,2015,1027,3
-251,Star Trek: Into Darkness,2013,1027,3
-252,Venom,2018,1026,2
-253,Lady and the Tramp,1955,1026,2
-254,Pirates of the Caribbean: Dead Man's Chest,2006,1025,2
-255,The Emperor's New Groove,2000,1024,2
-256,300,2006,1024,2
-257,Final Destination,2000,1023,2
-258,Frozen 2,2019,1021,2
-259,Harry Potter and the Sorcerer's Stone,2001,1019,3
-260,Monsters University,2013,1018,3
-261,Thor,2011,1017,2
-262,The Right Stuff,1983,1016,2
-263,Ace Ventura: Pet Detective,1994,1014,2
-264,Tangled,2010,1014,3
-265,The Blind Side,2009,1011,2
-266,Star Trek: Beyond,2016,1008,2
-267,Black Widow,2021,1008,2
-268,The Secret Life of Walter Mitty,2013,1008,2
-269,Little Shop of Horrors,1986,1007,2
-270,Kick-Ass,2010,1006,2
-271,The Muppet Christmas Carol,1992,1004,3
-272,The Crucible,1996,1003,3
-273,Luca,2021,1002,3
-274,Evolution,2001,1001,3
-275,Snow White and the Seven Dwarfs,1937,1001,3
-276,The Searchers,1956,1000,2
-277,Incredibles 2,2018,999,2
-278,Megamind,2010,999,3
-279,Dirty Dancing,1987,999,3
-280,Phineas and Ferb the Movie: Across the 2nd Dimension,2011,998,2
-281,Ace Ventura: When Nature Calls,1995,998,3
-282,Men in Black 3,2012,996,2
-283,Dr. Dolittle,1998,994,2
-284,Doctor Strange in the Multiverse of Madness,2022,991,3
-285,Transcendence,2014,989,3
-286,A Bug's Life,1998,987,3
-287,Solo: A Star Wars Story,2018,986,2
-288,A Nightmare on Elm Street 4: The Dream Master,1988,986,2
-289,Friday the 13th Part 2,1981,984,3
-290,Captain America: The First Avenger,2011,983,2
-291,Finding Dory,2016,983,2
-292,21,2008,981,3
-293,Kung Fu Panda 3,2016,980,2
-294,The Muppets,2011,980,2
-295,Tremors,1990,979,3
-296,The Amazing Spider-Man,2012,978,3
-297,Madagascar 3: Europe's Most Wanted,2012,977,2
-298,Murder on the Orient Express,2017,976,3
-299,Cars 3,2017,976,3
-300,The Mask,1994,975,2
-301,Peter Pan,1953,975,3
-302,The Mummy,1999,975,2
-303,"I, Robot",2004,974,3
-304,Hocus Pocus 2,2022,973,3
-305,The Hobbit: The Desolation of Smaug,2013,973,2
-306,The Tree of Life,2011,972,3
-307,Idiocracy,2006,971,3
-308,Pacific Rim,2013,971,2
-309,Dick Tracy,1990,971,3
-310,The Greatest Showman,2017,970,2
-311,Cars,2006,969,3
-312,Tarzan,1999,968,2
-313,Happy Feet Two,2011,966,3
-314,Star Wars: Episode VIII - The Last Jedi,2017,963,2
-315,I'm Totally Fine,2023,962,3
-316,The 40-Year-Old Virgin,2005,961,3
-317,The Princess and the Frog,2009,961,2
-318,War of the Worlds,2005,954,2
-319,Spiral,2021,953,2
-320,The Sword in the Stone,1963,953,3
-321,The Book of Life,2014,952,2
-322,Iron Man 3,2013,951,3
-323,Annie,1982,951,3
-324,Spy Kids,2001,950,3
-325,Bee Movie,2007,947,3
-326,Meet the Robinsons,2007,946,3
-327,The Hobbit: The Battle of the Five Armies,2014,945,2
-328,Brave,2012,944,2
-329,Harry Potter and the Deathly Hallows: Part 1,2010,943,2
-330,Robots,2005,943,3
-331,Chronicles of Narnia: Prince Caspian,2008,942,2
-332,Hoodwinked!,2005,941,3
-333,Sleeping Beauty,1959,940,2
-334,Rango,2011,937,2
-335,Pirates of the Caribbean: At World's End,2007,937,3
-336,The Amazing Spider-Man 2,2014,937,2
-337,Tremors 3: Back to Perfection,2001,933,2
-338,Talladega Nights: The Ballad of Ricky Bobby,2006,933,2
-339,Despicable Me 2,2013,932,2
-340,The Spongebob Squarepants Movie,2004,932,2
-341,Robin Hood,1973,932,2
-342,The Aristocats,1970,931,2
-343,Jurassic World,2015,931,2
-344,Christopher Robin,2018,930,3
-345,The Little Mermaid,1989,930,3
-346,A Haunting in Venice,2023,929,3
-347,Shark Tale,2004,927,3
-348,Tremors II: Aftershocks,1996,927,2
-349,How to Lose a Guy in 10 Days,2003,927,2
-350,101 Dalmatians,1996,926,3
-351,Mean Girls,2004,925,3
-352,Beauty and the Beast,2017,925,2
-353,Madagascar,2005,924,2
-354,Iron Man 2,2010,923,2
-355,My Girl,1991,921,3
-356,National Treasure,2004,919,3
-357,Miss Congeniality,2000,918,2
-358,Thor: The Dark World,2013,917,2
-359,Friday the 13th Part III,1982,916,2
-360,The Peanuts Movie,2015,914,3
-361,Casper,1995,914,3
-362,Cloudy with a Chance of Meatballs,2009,914,3
-363,The Little Rascals,1994,912,3
-364,Dr. Dolittle 2,2001,912,2
-365,The Dictator,2012,912,2
-366,Over the Hedge,2006,911,3
-367,Charlie and the Chocolate Factory,2005,911,3
-368,Madagascar 2: Escape to Africa,2008,909,3
-369,Spider-Man,2002,909,2
-370,The Santa Clause,1994,908,3
-371,Harry Potter and the Chamber of Secrets,2002,907,3
-372,Jurassic World: Fallen Kingdom,2018,906,2
-373,The Day After Tomorrow,2004,905,2
-374,Look Who's Back,2015,904,2
-375,Cars 2,2011,902,2
-376,Star Wars: Episode IX - The Rise of Skywalker,2019,902,2
-377,"Chronicles of Narnia: The Lion, the Witch, and the Wardrobe",2005,898,2
-378,Horton Hears a Who!,2008,897,2
-379,Open Season,2006,897,2
-380,Bolt,2008,897,2
-381,Spider-Man 3,2007,896,3
-382,Space Jam,1996,896,3
-383,Ted,2012,894,2
-384,The Hunger Games: Mockingjay Part 2,2015,893,2
-385,Enchanted,2007,892,3
-386,Shrek the Third,2007,890,2
-387,Chicken Run,2000,888,2
-388,Diary of a Wimpy Kid,2010,887,3
-389,Ammonium,2020,886,3
-390,Star Wars: Episode I - The Phantom Menace,1999,884,2
-391,Spy Kids 2: Island of Lost Dreams,2002,883,2
-392,Leo,2023,882,3
-393,Minutemen,2008,881,3
-394,Star Wars: Episode II - The Attack of the Clones,2002,881,3
-395,Ice Age,2002,875,3
-396,Jurassic World: Dominion,2022,875,2
-397,The Meg,2018,875,2
-398,Lemonade Mouth,2011,874,3
-399,Jungle Cruise,2020,874,2
-400,The Santa Clause 2,2002,873,2
-401,Hotel Transylvania,2012,873,3
-402,Monsters vs. Aliens,2009,871,2
-403,G-Force,2009,871,2
-404,The Fault in Our Stars,2014,871,3
-405,We're the Millers,2013,870,3
-406,Now You See Me,2013,870,2
-407,Planet 51,2009,870,3
-408,Real Steel,2011,870,2
-409,Chicken Little,2005,868,3
-410,Lady and the Tramp,2009,866,2
-411,Saw 6,2009,865,2
-412,Rio,2011,863,3
-413,Ice Age: The Meltdown,2006,861,3
-414,Ghostbusters: Frozen Empire,2024,860,3
-415,Percy Jackson and the Olympians: The Lightning Thief,2010,860,2
-416,The Parent Trap,1998,858,2
-417,Diary of a Wimpy Kid: Dog Days,2012,856,2
-418,Open Season 2,2008,856,2
-419,Ice Age: Dawn of the Dinosaurs,2009,856,3
-420,Small Soldiers,1998,853,3
-421,Flushed Away,2006,853,2
-422,Hop,2011,850,2
-423,The Game Plan,2007,850,2
-424,Ice Age: Continental Drift,2012,850,3
-425,Trolls Band Together,2023,849,3
-426,Kick-Ass 2,2013,847,2
-427,Minions,2015,846,3
-428,Tinker Bell,2008,846,3
-429,Sing,2016,846,3
-430,Trolls,2016,845,3
-431,Zathura: A Space Adventure,2005,845,3
-432,Smart House,1999,844,3
-433,High School Musical 2,2007,840,3
-434,Tremors 4: The Legend Begins,2004,837,3
-435,Rio 2,2014,836,2
-436,This is the End,2013,835,2
-437,Sing 2,2021,832,3
-438,Despicable Me 3,2017,831,2
-439,National Treasure: Book of Secrets,2007,831,3
-440,Race to Witch Mountain,2009,830,3
-441,Battleship,2012,829,2
-442,Suicide Squad,2016,828,2
-443,Indiana Jones and the Kingdom of the Crystal Skull,2008,828,2
-444,Gnomeo and Juliet,2011,828,3
-445,Let it Shine,2012,826,3
-446,Fireheart,2022,824,2
-447,Brother Bear,2003,824,2
-448,World War Z,2013,824,2
-449,Divergent,2014,823,3
-450,Diary of a Wimpy Kid: Rodrick Rules,2011,821,3
-451,Ghostbusters,2016,818,2
-452,The Hunger Games: Mockingjay Part 1,2014,817,2
-453,The Santa Clause 3,2006,817,2
-454,Wizards of Waverly Place: The Movie,2009,816,3
-455,Tooth Fairy,2010,816,3
-456,The Lorax,2012,815,2
-457,Shanghai Knights,2003,815,2
-458,Men in Black 2,2002,815,3
-459,High School Musical,2006,814,2
-460,White House Down,2013,814,2
-461,Maleficent,2014,814,3
-462,The Ant Bully,2006,810,3
-463,Fantastic Four,2005,808,2
-464,The Incredible Hulk,2008,806,2
-465,Camp Rock 2: The Final Jam,2010,806,2
-466,Looney Tunes: Back in Action,2003,804,2
-467,The Boss Baby,2017,802,2
-468,Home on the Range,2004,801,2
-469,The Little Mermaid 2: Return to the Sea,2000,800,2
-470,High School Musical 3: Senior Year,2008,799,3
-471,Oz the Great and Powerful,2013,799,2
-472,Superman Returns,2006,795,2
-473,Trolls World Tour,2020,795,3
-474,Ramona and Beezus,2010,794,2
-475,Hotel for Dogs,2009,793,3
-476,Red One,2024,793,2
-477,Mirror Mirror,2012,791,3
-478,Alice in Wonderland,2010,790,3
-479,Casper Meets Wendy,1998,790,2
-480,Descendants,2015,788,2
-481,Lilo & Stitch 2: Stitch Has a Glitch,2005,786,2
-482,Zookeeper,2011,786,3
-483,Coyote Ugly,2000,783,2
-484,Lady and the Tramp 2: Scamp's Adventure,2001,782,3
-485,Monster House,2006,780,3
-486,Radio Rebel,2012,779,3
-487,Legally Blonde,2001,778,3
-488,Robocop,2014,778,3
-489,Parental Guidance,2012,777,2
-490,Secret of the Wings,2012,775,3
-491,Beverly Hills Chihuahua,2008,774,3
-492,Beverly Hills Chihuahua 2,2011,773,3
-493,Tinker Bell and the Lost Treasure,2009,772,2
-494,The Suite Life Movie,2011,772,3
-495,Monte Carlo,2011,770,2
-496,Tinker Bell and the Great Fairy Rescue,2010,770,2
-497,The Boss Baby: Family Business,2021,770,3
-498,Volcano,1997,769,3
-499,Spy Kids 3-D: Game Over,2003,768,2
-500,The Twilight Saga: Breaking Dawn - Part 2,2012,768,2
-501,Legally Blondes,2009,767,2
-502,Percy Jackson and the Olympians: Sea of Monsters,2013,767,3
-503,Camp Rock,2008,767,3
-504,Snow Buddies,2008,766,3
-505,Twilight,2008,765,2
-506,Leroy and Stitch,2006,764,2
-507,Santa Buddies,2009,763,2
-508,Geek Charming,2011,762,3
-509,Dadnapped,2009,761,3
-510,The Core,2003,761,2
-511,The Waterboy,1998,759,3
-512,Princess Protection Program,2009,759,2
-513,Girl vs. Monster,2012,758,2
-514,Dr. Dolittle: Tail to the Chief,2008,757,2
-515,Escape from Planet Earth,2013,756,2
-516,Sharpay's Fabulous Adventure,2011,755,3
-517,"Good Luck Charlie, It's Christmas!",2011,750,2
-518,Space Buddies,2009,748,3
-519,Avalon High,2010,748,3
-520,Teen Beach Movie,2013,747,2
-521,The Pirate Fairy,2014,747,2
-522,Ride Along,2014,747,2
-523,The Monuments Men,2014,744,3
-524,Zapped,2014,742,2
-525,Transformers,2007,741,2
-526,"Legally Blonde 2: Red, White & Blonde",2003,740,3
-527,Pitch Perfect,2012,737,3
-528,The Dog Who Saved Christmas,2009,736,3
-529,Twitches Too,2007,735,3
-530,The Twilight Saga: Breaking Dawn Part 1,2011,734,2
-531,Cloud 9,2014,734,2
-532,The DUFF,2015,734,3
-533,Twitches,2005,733,3
-534,Teenage Mutant Ninja Turtles,2014,733,2
-535,Pitch Perfect 2,2015,732,2
-536,Clueless,1995,728,3
-537,Transformers: Revenge of the Fallen,2009,728,2
-538,Spellbound,2024,726,3
-539,Transformers: Dark of the Moon,2011,726,3
-540,Tooth Fairy 2,2012,726,2
-541,How to Build a Better Boy,2014,724,2
-542,Pixels,2015,723,2
-543,Grown Ups 2,2013,722,2
-544,Batman & Robin,1997,722,2
-545,Grown Ups,2010,720,2
-546,Frenemies,2012,720,2
-547,Human Centipede,2009,718,3
-548,Bedtime Stories,2008,717,2
-549,Transformers: Age of Extinction,2014,713,3
-550,Teen Beach 2,2015,711,3
-551,Jack and Jill,2011,709,2
-552,Zack and Miri Make a Porno,2008,708,3
-553,After Earth,2013,708,3
-554,Bad Hair Day,2015,708,2
-555,The Last Airbender,2010,702,2
+1,The Dark Knight,2008,1314,4
+2,The Shawshank Redemption,1994,1313,5
+3,The Social Network,2010,1311,5
+4,The Lord of the Rings: The Two Towers,2002,1306,5
+5,Scott Pilgrim vs. The World,2010,1305,5
+6,The Godfather Part 2,1974,1302,5
+7,Star Wars: Episode IV - A New Hope,1977,1297,5
+8,The Silence of the Lambs,1991,1296,5
+9,Pulp Fiction,1994,1295,5
+10,Interstellar,2014,1295,4
+11,Everything Everywhere All At Once,2022,1293,5
+12,Fight Club,1999,1292,5
+13,Inception,2010,1292,5
+14,Star Wars: Episode V - The Empire Strikes Back,1980,1291,5
+15,The Lord of the Rings: The Return of the King,2003,1291,5
+16,Schindler's List,1993,1289,5
+17,The Lord of the Rings: The Fellowship of the Ring,2001,1289,5
+18,Forrest Gump,1994,1289,5
+19,The Martian,2015,1288,5
+20,Terminator 2: Judgement Day,1991,1286,5
+21,La La Land,2016,1285,5
+22,Joker,2019,1284,5
+23,Lady Bird,2017,1283,4
+24,Your Name,2016,1282,4
+25,The Godfather,1972,1281,4
+26,WALL-E,2008,1280,4
+27,The Prestige,2006,1278,5
+28,Spiderman: Into the Spiderverse,2018,1276,5
+29,Se7en,1995,1275,5
+30,Ratatouille,2007,1275,5
+31,Raiders of the Lost Ark,1981,1275,5
+32,The Holdovers,2023,1275,4
+33,Oppenheimer,2023,1273,5
+34,Good Will Hunting,1997,1273,5
+35,Arrival,2016,1271,5
+36,Poor Things,2023,1265,5
+37,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,1263,5
+38,The Wind Rises,2013,1262,5
+39,Back to the Future,1985,1260,4
+40,City of God,2002,1260,5
+41,Inglourious Basterds,2009,1258,4
+42,Spirited Away,2001,1257,5
+43,Moonlight,2016,1255,5
+44,Monty Python and the Holy Grail,1975,1254,4
+45,American Psycho,2000,1253,5
+46,Saving Private Ryan,1998,1253,4
+47,Citizen Kane,1941,1253,5
+48,Barbie,2023,1252,4
+49,All Quiet on the Western Front,2022,1252,4
+50,The Big Short,2015,1252,4
+51,Full Metal Jacket,1987,1250,5
+52,Whisper of the Heart,1995,1250,5
+53,Million Dollar Baby,2004,1250,4
+54,The Dark Knight Rises,2012,1249,4
+55,Dunkirk,2017,1247,5
+56,The Grand Budapest Hotel,2014,1245,5
+57,Eternal Sunshine of the Spotless Mind,2004,1244,5
+58,No Country For Old Men,2007,1242,5
+59,2001: A Space Odyssey,1968,1242,4
+60,Goodfellas,1990,1241,4
+61,Mad Max: Fury Road,2015,1240,5
+62,A Quiet Place,2018,1235,5
+63,Saw,2004,1235,5
+64,Wicked,2024,1234,5
+65,Whiplash,2014,1232,5
+66,Letters From Iwo Jima,2006,1230,5
+67,The Sixth Sense,1999,1227,5
+68,Shrek 2,2004,1226,5
+69,Dead Poets' Society,1989,1225,5
+70,The Terminator,1984,1223,5
+71,Puss in Boots: The Last Wish,2022,1221,4
+72,1917,2019,1219,5
+73,Princess Mononoke,1997,1219,5
+74,The Incredibles,2004,1215,4
+75,Toy Story 2,1999,1214,5
+76,Jaws,1975,1212,4
+77,Harry Potter and the Deathly Hallows Part 2,2011,1212,5
+78,The Imitation Game,2014,1211,5
+79,Avengers: Endgame,2019,1211,5
+80,Jurassic Park,1993,1210,5
+81,Star Wars: Episode VII - The Force Awakens,2015,1210,4
+82,Alien,1979,1210,4
+83,Battle Royale,2000,1207,4
+84,Little Women,2019,1206,5
+85,Kill Bill Vol. 1,2003,1206,4
+86,Coco,2017,1204,5
+87,The Princess Bride,1987,1204,5
+88,My Neighbor Totoro,1988,1204,4
+89,The Iron Giant,1999,1204,4
+90,How to Train Your Dragon,2010,1203,5
+91,Avengers: Infinity War,2018,1202,5
+92,Pirates of the Caribbean: The Curse of the Black Pearl,2003,1201,5
+93,Inside Out 2,2024,1200,5
+94,Akira,1988,1200,5
+95,Banshees of Inisherin,2022,1197,5
+96,South Park: Bigger Longer and Uncut,1999,1196,5
+97,Monty Python's Life of Brian,1979,1195,4
+98,The Disaster Artist,2017,1194,4
+99,Star Wars: Episode VI - The Return of the Jedi,1983,1193,4
+100,Zootopia,2016,1191,4
+101,Kill Bill Vol. 2,2004,1190,5
+102,The Great Dictator,1940,1187,4
+103,Spotlight,2015,1187,4
+104,Argo,2012,1186,5
+105,Indiana Jones and the Last Crusade,1989,1185,4
+106,Captain America: Civil War,2016,1185,5
+107,Iron Man,2008,1182,5
+108,The Lion King,1994,1180,4
+109,Top Gun: Maverick,2022,1179,4
+110,Spider-Man: Homecoming,2017,1179,4
+111,Midsommar,2019,1177,5
+112,The Menu,2022,1177,4
+113,Toy Story,1995,1176,5
+114,The Batman,2022,1176,5
+115,Moana,2016,1175,5
+116,The Avengers,2012,1170,5
+117,Kingsman: The Secret Service,2014,1169,5
+118,Her,2013,1169,5
+119,Kung Fu Panda 2,2011,1168,5
+120,Encanto,2021,1167,4
+121,To Kill A Mockingbird,1962,1166,5
+122,Spider-Man 2,2004,1165,5
+123,Hidden Figures,2016,1163,4
+124,Bridge of Spies,2015,1160,5
+125,The Revenant,2015,1159,5
+126,The Lego Movie,2014,1159,5
+127,The Lego Batman Movie,2017,1159,5
+128,Limitless,2011,1157,4
+129,Aladdin,1992,1157,5
+130,The Truman Show,1998,1156,5
+131,WarGames,1983,1153,5
+132,Shrek,2001,1153,5
+133,Mulan,1998,1152,5
+134,Toy Story 3,2010,1152,4
+135,Deadpool,2016,1150,4
+136,Star Wars: Episode III - The Revenge of the Sith,2005,1150,4
+137,Captain America: The Winter Soldier,2014,1149,4
+138,Glass Onion: A Knives Out Mystery,2022,1145,5
+139,Airplane!,1980,1144,4
+140,Batman Begins,2005,1144,4
+141,The King's Speech,2010,1144,5
+142,Chef,2014,1143,5
+143,The Wizard of Oz,1939,1142,5
+144,King Richard,2021,1141,4
+145,Steve Jobs,2015,1141,4
+146,Inside Out,2015,1141,5
+147,Superbad,2007,1139,4
+148,Guardians of the Galaxy,2014,1138,5
+149,Lilo & Stitch,2002,1137,5
+150,Saw 2,2005,1136,5
+151,"O'Brother, Where Art Thou",2000,1135,5
+152,Ghostbusters,1984,1134,5
+153,Thor: Ragnarok,2017,1132,5
+154,Finding Nemo,2003,1132,5
+155,Fantastic Mr. Fox,2009,1131,5
+156,John Wick,2014,1131,5
+157,Friday the 13th,1980,1130,5
+158,Nimona,2023,1130,4
+159,Onward,2020,1129,5
+160,Molly's Game,2017,1129,5
+161,Isle of Dogs,2018,1129,4
+162,Slumdog Millionaire,2008,1129,5
+163,Deadpool 2,2018,1129,4
+164,Wonder Woman,2017,1128,5
+165,Men in Black,1997,1125,5
+166,Avatar,2009,1123,4
+167,Up,2009,1122,4
+168,American Sniper,2014,1121,4
+169,Kung Fu Panda,2008,1120,5
+170,Kingsman: The Golden Circle,2017,1120,4
+171,Free Guy,2021,1119,4
+172,Spider-Man: No Way Home,2021,1118,4
+173,Willy Wonka & the Chocolate Factory,1971,1117,5
+174,Harry Potter and the Goblet of Fire,2005,1117,4
+175,Spider-Man: Far From Home,2019,1117,5
+176,Beauty and the Beast,1991,1108,4
+177,E.T. the Extra-Terrestrial,1982,1107,5
+178,Chicago,2002,1106,5
+179,Caddyshack,1980,1105,5
+180,Big Hero 6,2014,1104,5
+181,Elemental,2023,1104,4
+182,Guardians of the Galaxy: Volume 2,2017,1103,5
+183,Batman,1989,1102,5
+184,Stand and Deliver,1988,1101,5
+185,Ferris Bueller's Day Off,1986,1101,5
+186,Black Panther,2018,1100,4
+187,Bohemian Rhapsody,2018,1100,5
+188,The Breakfast Club,1985,1100,5
+189,Kung Fu Hustle,2004,1099,5
+190,Rudy,1993,1098,5
+191,Sonic the Hedgehog 3,2024,1096,5
+192,Happy Feet,2006,1096,5
+193,Casino Royale,2006,1094,4
+194,The Super Mario Bros. Movie,2023,1094,5
+195,How to Train Your Dragon 2,2014,1093,4
+196,Rocky,1976,1093,5
+197,Indiana Jones and the Temple of Doom,1984,1093,5
+198,District 9,2009,1092,5
+199,Hocus Pocus,1993,1092,4
+200,Watchmen,2009,1088,5
+201,Harry Potter and the Order of the Phoenix,2007,1087,5
+202,Doctor Strange,2016,1087,5
+203,Juno,2007,1079,5
+204,Shaun of the Dead,2004,1077,4
+205,Office Space,1999,1077,5
+206,Atlantis: The Lost Empire,2001,1075,5
+207,Monster's Inc,2001,1074,5
+208,Avengers: Age of Ultron,2015,1074,4
+209,Gifted,2017,1070,4
+210,Fried Green Tomatoes,1991,1070,5
+211,The Devil Wears Prada,2006,1070,5
+212,Sixteen Candles,2016,1069,4
+213,Back to the Future Part III,1990,1068,5
+214,Back to the Future Part 2,1989,1068,5
+215,Mr. Peabody and Sherman,2014,1066,5
+216,The Hobbit: An Unexpected Journey,2012,1065,4
+217,Despicable Me,2010,1063,4
+218,Anchorman: The Legend of Ron Burgundy,2004,1062,4
+219,Avatar: The Way of Water,2022,1061,4
+220,The Founder,2016,1061,5
+221,The Outsiders,1983,1060,4
+222,The Hunger Games: Catching Fire,2013,1057,5
+223,The Hunger Games,2012,1056,5
+224,Harry Potter and the Prisoner of Azkaban,2004,1056,5
+225,Harry Potter and the Half-Blood Prince,2009,1052,4
+226,Dumb and Dumber,1994,1052,5
+227,Paranorman,2012,1052,5
+228,Frozen,2013,1051,4
+229,Sonic the Hedgehog 2,2022,1051,4
+230,Revenge of the Nerds,1984,1050,5
+231,The Hitchhiker's Guide to the Galaxy,2005,1050,5
+232,Star Trek,2009,1047,5
+233,Top Gun,1986,1046,4
+234,Monsters University,2013,1040,5
+235,Wreck-It Ralph,2012,1040,4
+236,Harry Potter and the Sorcerer's Stone,2001,1039,5
+237,Big Fish,2003,1038,5
+238,Gremlins,1984,1037,5
+239,Man of Steel,2013,1035,4
+240,Lady and the Tramp,1955,1035,5
+241,Shrek Forever After,2010,1035,5
+242,X-Men: First Class,2011,1033,5
+243,The Searchers,1956,1033,4
+244,Star Trek: Into Darkness,2013,1033,4
+245,Napoleon Dynamite,2004,1033,5
+246,Thor,2011,1033,5
+247,Sonic the Hedgehog,2020,1032,5
+248,Kick-Ass,2010,1031,5
+249,The Blind Side,2009,1031,4
+250,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,2006,1030,5
+251,The Fox and the Hound,1981,1028,5
+252,The Lego Ninjago Movie,2017,1028,4
+253,The Great Gatsby,2013,1027,4
+254,Amazing Grace,2006,1025,5
+255,Tangled,2010,1023,5
+256,X-Men: Days of Future Past,2014,1023,5
+257,Snow White and the Seven Dwarfs,1937,1022,5
+258,My Hero Academia: The Movie,2018,1019,5
+259,The Emperor's New Groove,2000,1017,5
+260,Dirty Dancing,1987,1017,4
+261,300,2006,1015,5
+262,Ant-Man,2015,1015,4
+263,The Muppets,2011,1015,5
+264,Saw 4,2007,1015,5
+265,Final Destination,2000,1014,5
+266,Frozen 2,2019,1010,5
+267,A Bug's Life,1998,1009,5
+268,The Right Stuff,1983,1006,5
+269,Megamind,2010,1006,4
+270,The Muppet Christmas Carol,1992,1006,5
+271,Captain America: The First Avenger,2011,1004,5
+272,Tarzan,1999,1003,4
+273,Little Shop of Horrors,1986,1002,5
+274,Venom,2018,1000,4
+275,Ace Ventura: Pet Detective,1994,999,5
+276,Tremors,1990,996,5
+277,The Greatest Showman,2017,995,4
+278,The Secret Life of Walter Mitty,2013,994,4
+279,The Tree of Life,2011,994,5
+280,Pirates of the Caribbean: Dead Man's Chest,2006,993,5
+281,Pacific Rim,2013,991,5
+282,The Mask,1994,991,5
+283,Transcendence,2014,991,5
+284,The Mummy,1999,991,5
+285,The Princess and the Frog,2009,988,5
+286,Cars,2006,988,5
+287,Doctor Strange in the Multiverse of Madness,2022,987,5
+288,Men in Black 3,2012,986,5
+289,Kung Fu Panda 3,2016,985,5
+290,Luca,2021,985,5
+291,Phineas and Ferb the Movie: Across the 2nd Dimension,2011,984,5
+292,Star Trek: Beyond,2016,983,5
+293,Finding Dory,2016,980,4
+294,Black Widow,2021,980,4
+295,"I, Robot",2004,979,5
+296,Evolution,2001,976,5
+297,The Hobbit: The Desolation of Smaug,2013,976,5
+298,Idiocracy,2006,976,5
+299,Dick Tracy,1990,976,4
+300,Friday the 13th Part 2,1981,973,5
+301,Cars 3,2017,972,5
+302,Dr. Dolittle,1998,972,5
+303,Peter Pan,1953,970,4
+304,I'm Totally Fine,2023,968,4
+305,The Crucible,1996,968,5
+306,Incredibles 2,2018,967,4
+307,Robots,2005,966,4
+308,The Hobbit: The Battle of the Five Armies,2014,966,5
+309,Murder on the Orient Express,2017,964,5
+310,Meet the Robinsons,2007,963,5
+311,The Amazing Spider-Man,2012,962,5
+312,A Nightmare on Elm Street 4: The Dream Master,1988,962,4
+313,Ace Ventura: When Nature Calls,1995,961,5
+314,Jurassic World,2015,961,5
+315,The Sword in the Stone,1963,960,5
+316,Solo: A Star Wars Story,2018,960,4
+317,Madagascar 3: Europe's Most Wanted,2012,959,5
+318,Star Wars: Episode VIII - The Last Jedi,2017,959,5
+319,Hocus Pocus 2,2022,959,5
+320,21,2008,957,5
+321,War of the Worlds,2005,955,4
+322,Iron Man 3,2013,950,5
+323,Chronicles of Narnia: Prince Caspian,2008,950,5
+324,Tremors II: Aftershocks,1996,943,4
+325,The Spongebob Squarepants Movie,2004,942,5
+326,Rango,2011,941,5
+327,The Book of Life,2014,940,5
+328,Annie,1982,939,4
+329,Brave,2012,938,5
+330,Spy Kids,2001,937,5
+331,Despicable Me 2,2013,937,5
+332,Bee Movie,2007,937,4
+333,The Amazing Spider-Man 2,2014,935,5
+334,Spiral,2021,935,5
+335,Hoodwinked!,2005,934,4
+336,Happy Feet Two,2011,934,5
+337,Talladega Nights: The Ballad of Ricky Bobby,2006,933,5
+338,National Treasure,2004,930,4
+339,Iron Man 2,2010,929,4
+340,Sleeping Beauty,1959,927,5
+341,Mean Girls,2004,926,5
+342,Pirates of the Caribbean: At World's End,2007,923,5
+343,The 40-Year-Old Virgin,2005,922,5
+344,Madagascar 2: Escape to Africa,2008,922,4
+345,Spider-Man,2002,920,4
+346,Friday the 13th Part III,1982,920,5
+347,Harry Potter and the Deathly Hallows: Part 1,2010,920,5
+348,Thor: The Dark World,2013,918,4
+349,A Haunting in Venice,2023,918,5
+350,Shark Tale,2004,918,5
+351,The Little Mermaid,1989,917,5
+352,Christopher Robin,2018,917,4
+353,Robin Hood,1973,916,4
+354,My Girl,1991,915,5
+355,Enchanted,2007,913,5
+356,Tremors 3: Back to Perfection,2001,913,4
+357,The Peanuts Movie,2015,913,5
+358,101 Dalmatians,1996,912,4
+359,Real Steel,2011,911,5
+360,Charlie and the Chocolate Factory,2005,911,5
+361,Madagascar,2005,910,4
+362,The Day After Tomorrow,2004,909,5
+363,The Little Rascals,1994,908,4
+364,Miss Congeniality,2000,906,5
+365,Over the Hedge,2006,906,4
+366,Cloudy with a Chance of Meatballs,2009,904,5
+367,Casper,1995,904,4
+368,The Santa Clause,1994,902,4
+369,Jurassic World: Fallen Kingdom,2018,901,4
+370,Beauty and the Beast,2017,901,5
+371,Ted,2012,900,4
+372,The Hunger Games: Mockingjay Part 2,2015,899,4
+373,The Aristocats,1970,898,5
+374,Harry Potter and the Chamber of Secrets,2002,898,4
+375,"Chronicles of Narnia: The Lion, the Witch, and the Wardrobe",2005,896,5
+376,Look Who's Back,2015,892,4
+377,The Dictator,2012,892,4
+378,How to Lose a Guy in 10 Days,2003,892,5
+379,Star Wars: Episode II - The Attack of the Clones,2002,890,4
+380,Now You See Me,2013,890,5
+381,Ammonium,2020,889,5
+382,Hotel Transylvania,2012,887,4
+383,Shrek the Third,2007,887,5
+384,Space Jam,1996,886,4
+385,Star Wars: Episode IX - The Rise of Skywalker,2019,885,5
+386,Open Season,2006,883,5
+387,Saw 6,2009,882,4
+388,Chicken Run,2000,879,5
+389,Monsters vs. Aliens,2009,878,4
+390,The Santa Clause 2,2002,877,5
+391,Leo,2023,877,4
+392,Star Wars: Episode I - The Phantom Menace,1999,875,5
+393,Dr. Dolittle 2,2001,874,5
+394,Diary of a Wimpy Kid,2010,872,4
+395,Horton Hears a Who!,2008,871,5
+396,The Hunger Games: Mockingjay Part 1,2014,870,5
+397,Cars 2,2011,870,5
+398,Flushed Away,2006,870,4
+399,Bolt,2008,869,4
+400,Jurassic World: Dominion,2022,868,5
+401,Spider-Man 3,2007,868,5
+402,Ice Age,2002,868,4
+403,Rio,2011,867,5
+404,Minutemen,2008,866,5
+405,Lemonade Mouth,2011,866,5
+406,Spy Kids 2: Island of Lost Dreams,2002,862,4
+407,Tinker Bell,2008,861,5
+408,Rio 2,2014,861,5
+409,G-Force,2009,857,4
+410,The Fault in Our Stars,2014,857,4
+411,Ice Age: The Meltdown,2006,857,4
+412,The Parent Trap,1998,857,5
+413,We're the Millers,2013,854,4
+414,Ghostbusters: Frozen Empire,2024,853,4
+415,Lady and the Tramp,2009,853,5
+416,High School Musical 2,2007,852,4
+417,Ice Age: Dawn of the Dinosaurs,2009,852,4
+418,Planet 51,2009,851,5
+419,Divergent,2014,849,5
+420,Shanghai Knights,2003,848,5
+421,Jungle Cruise,2020,847,4
+422,Small Soldiers,1998,846,5
+423,Sing 2,2021,843,5
+424,Brother Bear,2003,840,5
+425,Percy Jackson and the Olympians: The Lightning Thief,2010,839,5
+426,The Meg,2018,838,5
+427,Despicable Me 3,2017,836,5
+428,Race to Witch Mountain,2009,836,5
+429,Zathura: A Space Adventure,2005,835,5
+430,Men in Black 2,2002,834,4
+431,Chicken Little,2005,834,5
+432,Open Season 2,2008,834,4
+433,Kick-Ass 2,2013,833,4
+434,Sing,2016,833,5
+435,Minions,2015,833,5
+436,Gnomeo and Juliet,2011,832,5
+437,Indiana Jones and the Kingdom of the Crystal Skull,2008,832,5
+438,High School Musical,2006,832,5
+439,Smart House,1999,831,5
+440,Battleship,2012,831,4
+441,Ice Age: Continental Drift,2012,830,5
+442,Trolls Band Together,2023,830,5
+443,Trolls,2016,828,5
+444,This is the End,2013,828,5
+445,The Game Plan,2007,827,5
+446,Maleficent,2014,827,4
+447,Home on the Range,2004,826,5
+448,World War Z,2013,824,5
+449,Hop,2011,821,5
+450,Diary of a Wimpy Kid: Dog Days,2012,819,5
+451,Suicide Squad,2016,818,5
+452,Let it Shine,2012,818,4
+453,Tremors 4: The Legend Begins,2004,817,5
+454,Looney Tunes: Back in Action,2003,817,4
+455,The Santa Clause 3,2006,817,5
+456,Diary of a Wimpy Kid: Rodrick Rules,2011,817,4
+457,National Treasure: Book of Secrets,2007,812,5
+458,Tooth Fairy,2010,811,5
+459,Coyote Ugly,2000,811,5
+460,Red One,2024,808,4
+461,The Lorax,2012,805,5
+462,White House Down,2013,800,5
+463,Fireheart,2022,800,5
+464,The Ant Bully,2006,797,5
+465,The Incredible Hulk,2008,796,4
+466,Camp Rock 2: The Final Jam,2010,795,5
+467,Ghostbusters,2016,795,5
+468,The Boss Baby,2017,792,4
+469,The Little Mermaid 2: Return to the Sea,2000,790,4
+470,Trolls World Tour,2020,790,4
+471,Superman Returns,2006,789,4
+472,Parental Guidance,2012,789,4
+473,Oz the Great and Powerful,2013,788,4
+474,Fantastic Four,2005,788,5
+475,Wizards of Waverly Place: The Movie,2009,785,5
+476,High School Musical 3: Senior Year,2008,781,5
+477,Hotel for Dogs,2009,781,5
+478,Lilo & Stitch 2: Stitch Has a Glitch,2005,781,4
+479,The Suite Life Movie,2011,780,5
+480,Legally Blonde,2001,780,5
+481,Ramona and Beezus,2010,779,5
+482,Zookeeper,2011,777,4
+483,Alice in Wonderland,2010,776,5
+484,Legally Blondes,2009,773,5
+485,"Good Luck Charlie, It's Christmas!",2011,772,5
+486,Descendants,2015,772,5
+487,Monster House,2006,771,5
+488,Robocop,2014,770,4
+489,Lady and the Tramp 2: Scamp's Adventure,2001,769,5
+490,Beverly Hills Chihuahua 2,2011,768,5
+491,Escape from Planet Earth,2013,767,5
+492,Mirror Mirror,2012,767,5
+493,Tinker Bell and the Lost Treasure,2009,766,4
+494,Secret of the Wings,2012,764,5
+495,Beverly Hills Chihuahua,2008,764,5
+496,Casper Meets Wendy,1998,763,5
+497,The Core,2003,762,5
+498,Twilight,2008,762,5
+499,The Boss Baby: Family Business,2021,760,5
+500,Tinker Bell and the Great Fairy Rescue,2010,760,5
+501,Radio Rebel,2012,759,5
+502,Camp Rock,2008,759,5
+503,The Twilight Saga: Breaking Dawn - Part 2,2012,759,5
+504,Snow Buddies,2008,758,5
+505,Leroy and Stitch,2006,751,4
+506,Spy Kids 3-D: Game Over,2003,750,5
+507,The Waterboy,1998,750,5
+508,Percy Jackson and the Olympians: Sea of Monsters,2013,749,5
+509,Princess Protection Program,2009,749,5
+510,Pitch Perfect,2012,748,5
+511,Dr. Dolittle: Tail to the Chief,2008,746,5
+512,Dadnapped,2009,746,5
+513,Transformers: Revenge of the Fallen,2009,744,4
+514,Volcano,1997,744,5
+515,Tooth Fairy 2,2012,744,5
+516,Avalon High,2010,743,5
+517,Monte Carlo,2011,743,5
+518,Geek Charming,2011,742,5
+519,Girl vs. Monster,2012,742,5
+520,Teenage Mutant Ninja Turtles,2014,740,5
+521,Transformers: Dark of the Moon,2011,739,5
+522,Human Centipede,2009,739,5
+523,Cloud 9,2014,737,5
+524,"Legally Blonde 2: Red, White & Blonde",2003,737,4
+525,Sharpay's Fabulous Adventure,2011,735,5
+526,Zapped,2014,734,4
+527,Teen Beach Movie,2013,733,4
+528,Space Buddies,2009,731,5
+529,Grown Ups 2,2013,731,4
+530,The Monuments Men,2014,728,5
+531,Twitches,2005,728,4
+532,Santa Buddies,2009,726,5
+533,The Dog Who Saved Christmas,2009,726,5
+534,Ride Along,2014,723,5
+535,Spellbound,2024,723,4
+536,The Twilight Saga: Breaking Dawn Part 1,2011,723,4
+537,Pitch Perfect 2,2015,722,4
+538,The Pirate Fairy,2014,719,5
+539,Transformers,2007,718,5
+540,Twitches Too,2007,718,5
+541,How to Build a Better Boy,2014,714,4
+542,Grown Ups,2010,712,4
+543,Pixels,2015,711,4
+544,Frenemies,2012,708,5
+545,Clueless,1995,707,5
+546,Transformers: Age of Extinction,2014,705,5
+547,After Earth,2013,703,5
+548,The DUFF,2015,702,5
+549,Batman & Robin,1997,696,5
+550,Jack and Jill,2011,695,5
+551,Teen Beach 2,2015,693,5
+552,Bedtime Stories,2008,690,5
+553,Zack and Miri Make a Porno,2008,685,5
+554,Bad Hair Day,2015,678,5
+555,The Last Airbender,2010,674,5

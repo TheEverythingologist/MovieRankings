@@ -7,10 +7,10 @@ class MovieWriter:
         pass
 
     def write_to_csv(self, dataframe: pd.DataFrame, file_name:str):
-        dataframe.to_csv(file_name, sep=",", encoding='utf-8')
+        dataframe.to_csv(file_name, sep=",", encoding='utf-8', index=False)
 
     def add_to_csv(self, dataframe: pd.DataFrame, file_name:str):
-        dataframe.to_csv(file_name, mode='a', header=False)
+        dataframe.to_csv(file_name, mode='a', header=False, index=False)
 
     def generate_new_movie_df(self, list_of_new_movies: list[tuple[str, str]]):
         _df = pd.DataFrame(list_of_new_movies, columns=["MovieName", "ReleaseYear"])
@@ -29,4 +29,5 @@ class MovieWriter:
         movie_df.loc[criteria2, "TimesCompeted"] = movie2.num_competitions
         # Update the rank column
         movie_df = movie_df.sort_values(by="EloRating", ascending=False)
+        movie_df["Rank"] = range(1, len(movie_df) + 1)
         return movie_df

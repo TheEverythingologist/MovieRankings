@@ -16,7 +16,8 @@ def main():
     path_to_database = "C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv"
     movie_writer = MovieWriter()
     movie_df = movie_writer.generate_new_movie_df(list_of_new_movies=new_movies_list)
-    movie_writer.add_to_csv(dataframe=movie_df, file_name=path_to_database)
+    if len(new_movies_list) > 0:
+        movie_writer.add_to_csv(dataframe=movie_df, file_name=path_to_database)
 
     # Setup the elo system
     movie_data_from_csv = movie_reader.read_database("C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv")

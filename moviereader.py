@@ -53,9 +53,9 @@ class MovieReader:
                 for row in reader:
                     try:
                         name = row['MovieName'].strip()
-                        year = int(row["ReleaseYear"].strip())
-                        elo = int(row['EloRating'].strip())
-                        num_comp = int(row['TimesCompeted'].strip())
+                        year = int(float(row["ReleaseYear"]))
+                        elo = int(row['EloRating'])
+                        num_comp = int(row['TimesCompeted'])
                         result.append((name, year, elo, num_comp))
                     except (KeyError, ValueError):
                         print(f"Skipping malformed row: {row}")

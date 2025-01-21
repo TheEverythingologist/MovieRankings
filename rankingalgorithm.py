@@ -189,16 +189,14 @@ class RankingSystem:
         new_player = False
 
         if len(sorted_list) < 10:
+            player1: _Competitor = sorted_list.pop()
             if len(sorted_list) == 1:
-                # If there is only 1 movie with the minimum number of completions, remove it from the list, then continue populating it.
-                player1: _Competitor = sorted_list.pop()
                 closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=self.players)
                 new_player = True
             while len(sorted_list) < 10:
                 min_num_comps += 1
                 sorted_list += [player for player in self.players if player.num_competitions == min_num_comps]
                 if len(sorted_list) >= 10 and new_player == False:
-                    player1: _Competitor = sorted_list.pop()
                     closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=sorted_list)
         else:
             # Choose player 1 randomly since the player pool is large enough

@@ -200,7 +200,7 @@ class RankingSystem:
                     closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=sorted_list)
         else:
             # Choose player 1 randomly since the player pool is large enough
-            player1 = sorted_list.pop(random.randint(0, len(sorted_list)))
+            player1 = sorted_list.pop(random.randint(0, len(sorted_list) - 1))
             closest_players = self.find_closest_competitors_by_rating(player=player1, sorted_players=sorted_list)
         # Matchmake player 1 to find a close competitor for it
         return player1, random.choice(closest_players)

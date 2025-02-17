@@ -1,2 +1,7 @@
-.gitignore
 fafo.py
+/data/database_original.csv
+/data/database copy.csv
+/data/database1.csv
+/data/list_of_movies_original.txt
+/data/list_of_movies.txt
+/data/list_of_movies1.txt

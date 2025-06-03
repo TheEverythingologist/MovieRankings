@@ -179,7 +179,7 @@ class RankingSystem:
         player_rating = player.rating
         sorted_players = sorted(sorted_players, key=lambda p: abs(getattr(p, "rating", float('inf')) - player_rating))
         # Return the closest n objects, excluding the given player itself if present in the list
-        n = min(10, len(sorted_players))
+        n = min(30, len(sorted_players))
         return [p for p in sorted_players if p != player][:n]
 
 

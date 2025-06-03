@@ -18,7 +18,7 @@ class MovieReader:
         """
         result = []
         try:
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 for line in file:
                     line = line.strip()  # Remove leading/trailing whitespace
                     if line:  # Skip empty lines
@@ -49,7 +49,7 @@ class MovieReader:
         """
         result = []
         try:
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 reader = csv.DictReader(file)
                 for row in reader:
                     try:

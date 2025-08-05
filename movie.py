@@ -8,12 +8,6 @@ class Movie:
 
     #TODO Add ability to get rankings from various websites like Letterboxd, IMDB, Rotten Tomatoes, etc.
 
-    def getRottenTomatoesLink(self):
-        pass
-
-    def getRottenTomatoesScore(self):
-        pass
-
     def getIMDBLink(self):
         pass
 
@@ -24,6 +18,9 @@ class Movie:
         pass
 
     def getLetterboxdScore(self):
+        pass
+
+    def getmovieposter(self):
         pass
 
     def __eq__(self, other: "Movie"):

@@ -116,15 +116,15 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 115,Batman Begins,2005,1182,12,https://letterboxd.com/film/batman-begins/
 116,A Real Pain,2024,1182,12,https://letterboxd.com/film/a-real-pain/
 117,Return of the Jedi,1983,1179,12,https://letterboxd.com/film/return-of-the-jedi/
-118,Little Women,2019,1178,12,https://letterboxd.com/film/little-women/
+118,Little Women,2019,1178,12,https://letterboxd.com/film/little-women-2019/
 119,Kill Bill Vol. 2,2004,1177,12,https://letterboxd.com/film/kill-bill-vol-2/
 120,The Lego Movie,2014,1176,12,https://letterboxd.com/film/the-lego-movie/
-121,Moana,2016,1173,12,https://letterboxd.com/film/moana/
-122,Coco,2017,1173,12,https://letterboxd.com/film/coco/
+121,Moana,2016,1173,12,https://letterboxd.com/film/moana-2016/
+122,Coco,2017,1173,12,https://letterboxd.com/film/coco-2017/
 123,Argo,2012,1173,11,https://letterboxd.com/film/argo/
-124,Inside Out,2015,1172,12,https://letterboxd.com/film/inside-out/
+124,Inside Out,2015,1172,12,https://letterboxd.com/film/inside-out-2015/
 125,Toy Story,1995,1171,12,https://letterboxd.com/film/toy-story/
-126,Saw 2,2005,1171,12,https://letterboxd.com/film/saw-2/
+126,Saw II,2005,1171,12,https://letterboxd.com/film/saw-ii/
 127,Kung Fu Panda,2008,1170,11,https://letterboxd.com/film/kung-fu-panda/
 128,How to Train Your Dragon 2,2014,1170,12,https://letterboxd.com/film/how-to-train-your-dragon-2/
 129,Aladdin,1992,1169,12,https://letterboxd.com/film/aladdin/
@@ -160,7 +160,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 159,Limitless,2011,1132,12,https://letterboxd.com/film/limitless/
 160,Fantastic Mr. Fox,2009,1131,12,https://letterboxd.com/film/fantastic-mr-fox/
 161,Spider-Man 2,2004,1131,12,https://letterboxd.com/film/spider-man-2/
-162,Ferris Bueller's Day Off,1986,1130,12,https://letterboxd.com/film/ferris-bueller-s-day-off/
+162,Ferris Bueller's Day Off,1986,1130,12,https://letterboxd.com/film/ferris-buellers-day-off/
 163,Deadpool,2016,1127,12,https://letterboxd.com/film/deadpool/
 164,Toy Story 3,2010,1126,12,https://letterboxd.com/film/toy-story-3/
 165,Zootopia,2016,1126,11,https://letterboxd.com/film/zootopia/
@@ -170,7 +170,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 169,King Richard,2021,1121,12,https://letterboxd.com/film/king-richard/
 170,Star Wars: Episode VII - The Force Awakens,2015,1120,12,https://letterboxd.com/film/star-wars-episode-vii-the-force-awakens/
 171,Juno,2007,1120,12,https://letterboxd.com/film/juno/
-172,The King's Speech,2010,1120,12,https://letterboxd.com/film/the-king-s-speech/
+172,The King's Speech,2010,1120,12,https://letterboxd.com/film/the-kings-speech/
 173,Kung Fu Panda 2,2011,1119,12,https://letterboxd.com/film/kung-fu-panda-2/
 174,Spotlight,2015,1119,12,https://letterboxd.com/film/spotlight/
 175,Beauty and the Beast,1991,1117,12,https://letterboxd.com/film/beauty-and-the-beast/
@@ -198,7 +198,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 197,The Lego Batman Movie,2017,1101,12,https://letterboxd.com/film/the-lego-batman-movie/
 198,The Devil Wears Prada,2006,1100,12,https://letterboxd.com/film/the-devil-wears-prada/
 199,Wreck-It Ralph,2012,1100,12,https://letterboxd.com/film/wreck-it-ralph/
-200,The Emperor's New Groove,2000,1098,12,https://letterboxd.com/film/the-emperor-s-new-groove/
+200,The Emperor's New Groove,2000,1098,12,https://letterboxd.com/film/the-emperors-new-groove/
 201,Civil War,2024,1097,12,https://letterboxd.com/film/civil-war/
 202,Bridge of Spies,2015,1095,12,https://letterboxd.com/film/bridge-of-spies/
 203,Men in Black,1997,1094,12,https://letterboxd.com/film/men-in-black/
@@ -213,7 +213,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 212,The Princess and the Frog,2009,1086,12,https://letterboxd.com/film/the-princess-and-the-frog/
 213,The Avengers,2012,1084,12,https://letterboxd.com/film/the-avengers/
 214,Chicago,2002,1084,12,https://letterboxd.com/film/chicago/
-215,Casino Royale,2006,1083,12,https://letterboxd.com/film/casino-royale/
+215,Casino Royale,2006,1083,12,https://letterboxd.com/film/casino-royale-2006/
 216,Free Guy,2021,1082,11,https://letterboxd.com/film/free-guy/
 217,Black Panther,2018,1081,12,https://letterboxd.com/film/black-panther/
 218,Batman,1989,1079,12,https://letterboxd.com/film/batman/
@@ -257,14 +257,14 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 256,Pacific Rim,2013,1037,12,https://letterboxd.com/film/pacific-rim/
 257,Kingsman: The Golden Circle,2017,1035,12,https://letterboxd.com/film/kingsman-the-golden-circle/
 258,Harry Potter and the Half-Blood Prince,2009,1034,12,https://letterboxd.com/film/harry-potter-and-the-half-blood-prince/
-259,Saw 4,2007,1034,12,https://letterboxd.com/film/saw-4/
+259,Saw IV,2007,1034,12,https://letterboxd.com/film/saw-iv/
 260,Eraserhead,1977,1032,12,https://letterboxd.com/film/eraserhead/
 261,The Fox and the Hound,1981,1032,12,https://letterboxd.com/film/the-fox-and-the-hound/
 262,Friday the 13th Part 2,1981,1031,12,https://letterboxd.com/film/friday-the-13th-part-2/
 263,The Muppet Christmas Carol,1992,1030,12,https://letterboxd.com/film/the-muppet-christmas-carol/
 264,Revenge of the Nerds,1984,1028,12,https://letterboxd.com/film/revenge-of-the-nerds/
 265,The Outsiders,1983,1027,12,https://letterboxd.com/film/the-outsiders/
-266,The Hitchhiker's Guide to the Galaxy,2005,1027,12,https://letterboxd.com/film/the-hitchhiker-s-guide-to-the-galaxy/
+266,The Hitchhiker's Guide to the Galaxy,2005,1027,12,https://letterboxd.com/film/the-hitchhikers-guide-to-the-galaxy-2005/
 267,Top Gun,1986,1026,12,https://letterboxd.com/film/top-gun/
 268,Mr. Peabody and Sherman,2014,1023,12,https://letterboxd.com/film/mr-peabody-and-sherman/
 269,Mrs. Doubtfire,1993,1023,12,https://letterboxd.com/film/mrs-doubtfire/
@@ -274,7 +274,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 273,Onward,2020,1017,12,https://letterboxd.com/film/onward/
 274,Sonic the Hedgehog 2,2022,1017,12,https://letterboxd.com/film/sonic-the-hedgehog-2/
 275,Sleeping Beauty,1959,1016,12,https://letterboxd.com/film/sleeping-beauty/
-276,A Bug's Life,1998,1015,12,https://letterboxd.com/film/a-bug-s-life/
+276,A Bug's Life,1998,1015,12,https://letterboxd.com/film/a-bugs-life/
 277,Mamma Mia!,2008,1014,11,https://letterboxd.com/film/mamma-mia/
 278,Sonic the Hedgehog,2020,1014,12,https://letterboxd.com/film/sonic-the-hedgehog/
 279,8 Mile,2002,1014,11,https://letterboxd.com/film/8-mile/
@@ -292,7 +292,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 291,Spider-Man: Far From Home,2019,1006,12,https://letterboxd.com/film/spider-man-far-from-home/
 292,The Little Mermaid,1989,1004,12,https://letterboxd.com/film/the-little-mermaid/
 293,Star Trek,2009,1003,12,https://letterboxd.com/film/star-trek/
-294,Pirates of the Caribbean: Dead Man's Chest,2006,1002,12,https://letterboxd.com/film/pirates-of-the-caribbean-dead-man-s-chest/
+294,Pirates of the Caribbean: Dead Man's Chest,2006,1002,12,https://letterboxd.com/film/pirates-of-the-caribbean-dead-mans-chest/
 295,Men in Black 3,2012,1002,12,https://letterboxd.com/film/men-in-black-3/
 296,Napoleon Dynamite,2004,1001,11,https://letterboxd.com/film/napoleon-dynamite/
 297,The Mummy,1999,1001,12,https://letterboxd.com/film/the-mummy/
@@ -341,23 +341,23 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 340,Cloudy with a Chance of Meatballs,2009,967,11,https://letterboxd.com/film/cloudy-with-a-chance-of-meatballs/
 341,The Aristocats,1970,966,12,https://letterboxd.com/film/the-aristocats/
 342,Madagascar 2: Escape to Africa,2008,966,12,https://letterboxd.com/film/madagascar-2-escape-to-africa/
-343,Madagascar 3: Europe's Most Wanted,2012,966,12,https://letterboxd.com/film/madagascar-3-europe-s-most-wanted/
+343,Madagascar 3: Europe's Most Wanted,2012,966,12,https://letterboxd.com/film/madagascar-3-europes-most-wanted/
 344,A Goofy Movie,1995,966,12,https://letterboxd.com/film/a-goofy-movie/
 345,Iron Man 3,2013,965,12,https://letterboxd.com/film/iron-man-3/
 346,Venom,2018,965,12,https://letterboxd.com/film/venom/
-347,Harry Potter and the Sorcerer's Stone,2001,965,12,https://letterboxd.com/film/harry-potter-and-the-sorcerer-s-stone/
-348,Look Who's Back,2015,964,12,https://letterboxd.com/film/look-who-s-back/
+347,Harry Potter and the Sorcerer's Stone,2001,965,12,https://letterboxd.com/film/harry-potter-and-the-sorcerers-stone/
+348,Look Who's Back,2015,964,12,https://letterboxd.com/film/look-whos-back/
 349,Idiocracy,2006,964,12,https://letterboxd.com/film/idiocracy/
 350,Brave,2012,964,12,https://letterboxd.com/film/brave/
 351,Lady and the Tramp,1955,962,12,https://letterboxd.com/film/lady-and-the-tramp/
 352,Frozen 2,2019,958,12,https://letterboxd.com/film/frozen-2/
 353,The Crucible,1996,958,12,https://letterboxd.com/film/the-crucible/
-354,Saw 6,2009,957,12,https://letterboxd.com/film/saw-6/
+354,Saw VI,2009,957,12,https://letterboxd.com/film/saw-vi/
 355,Spider-Man,2002,956,12,https://letterboxd.com/film/spider-man/
 356,300,2006,954,12,https://letterboxd.com/film/300/
 357,A Haunting in Venice,2023,954,12,https://letterboxd.com/film/a-haunting-in-venice/
 358,Chicken Run,2000,952,12,https://letterboxd.com/film/chicken-run/
-359,I'm Totally Fine,2023,951,12,https://letterboxd.com/film/i-m-totally-fine/
+359,I'm Totally Fine,2023,951,12,https://letterboxd.com/film/im-totally-fine/
 360,The Greatest Showman,2017,950,12,https://letterboxd.com/film/the-greatest-showman/
 361,101 Dalmatians,1996,949,11,https://letterboxd.com/film/101-dalmatians/
 362,Star Wars: Episode VIII - The Last Jedi,2017,948,12,https://letterboxd.com/film/star-wars-episode-viii-the-last-jedi/
@@ -498,19 +498,19 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 497,Divergent,2014,805,12,https://letterboxd.com/film/divergent/
 498,Coyote Ugly,2000,805,12,https://letterboxd.com/film/coyote-ugly/
 499,Legally Blonde,2001,804,12,https://letterboxd.com/film/legally-blonde/
-500,We're the Millers,2013,803,12,https://letterboxd.com/film/we-re-the-millers/
+500,We're the Millers,2013,803,12,https://letterboxd.com/film/were-the-millers/
 501,Ice Age: Continental Drift,2012,803,12,https://letterboxd.com/film/ice-age-continental-drift/
 502,Race to Witch Mountain,2009,802,12,https://letterboxd.com/film/race-to-witch-mountain/
 503,Percy Jackson and the Olympians: The Lightning Thief,2010,799,12,https://letterboxd.com/film/percy-jackson-and-the-olympians-the-lightning-thief/
-504,Emilia Pérez,2023,798,12,https://letterboxd.com/film/emilia-p-rez/
+504,Emilia Pérez,2023,798,12,https://letterboxd.com/film/emilia-perez/
 505,Brother Bear,2003,796,12,https://letterboxd.com/film/brother-bear/
 506,Teenage Mutant Ninja Turtles,2014,794,12,https://letterboxd.com/film/teenage-mutant-ninja-turtles/
 507,Sing,2016,794,12,https://letterboxd.com/film/sing/
 508,The Final Destination,2009,792,12,https://letterboxd.com/film/the-final-destination/
 509,The Fault in Our Stars,2014,792,12,https://letterboxd.com/film/the-fault-in-our-stars/
 510,Chicken Little,2005,792,13,https://letterboxd.com/film/chicken-little/
-511,Lady and the Tramp 2: Scamp's Adventure,2001,790,12,https://letterboxd.com/film/lady-and-the-tramp-2-scamp-s-adventure/
-512,Sharpay's Fabulous Adventure,2011,788,12,https://letterboxd.com/film/sharpay-s-fabulous-adventure/
+511,Lady and the Tramp 2: Scamp's Adventure,2001,790,12,https://letterboxd.com/film/lady-and-the-tramp-2-scamps-adventure/
+512,Sharpay's Fabulous Adventure,2011,788,12,https://letterboxd.com/film/sharpays-fabulous-adventure/
 513,Trolls Band Together,2023,787,12,https://letterboxd.com/film/trolls-band-together/
 514,The Core,2003,786,12,https://letterboxd.com/film/the-core/
 515,Transformers: Dark of the Moon,2011,786,12,https://letterboxd.com/film/transformers-dark-of-the-moon/
@@ -533,7 +533,7 @@ Rank,MovieName,ReleaseYear,EloRating,TimesCompeted,LetterboxdLink
 532,Transformers: Revenge of the Fallen,2009,770,12,https://letterboxd.com/film/transformers-revenge-of-the-fallen/
 533,Suicide Squad,2016,770,12,https://letterboxd.com/film/suicide-squad/
 534,Twilight,2008,769,11,https://letterboxd.com/film/twilight/
-535,"Good Luck Charlie, It's Christmas!",2011,767,12,https://letterboxd.com/film/good-luck-charlie-it-s-christmas/
+535,"Good Luck Charlie, It's Christmas!",2011,767,12,https://letterboxd.com/film/good-luck-charlie-its-christmas/
 536,The Suite Life Movie,2011,766,12,https://letterboxd.com/film/the-suite-life-movie/
 537,The Meg,2018,766,12,https://letterboxd.com/film/the-meg/
 538,Open Season 2,2008,765,12,https://letterboxd.com/film/open-season-2/

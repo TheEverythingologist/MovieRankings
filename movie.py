@@ -1,16 +1,18 @@
 import re
 import requests
 import bs4
+import os
+from movie_poster import MoviePoster
 
 MIDPOINT_SCORE = 1000
 
 class Movie:
-    def __init__(self, name, release_year):
+    def __init__(self, name: str, release_year: str, letterboxd:str =None):
         self.name = name
         self.release_year = release_year
         self.initial_score = MIDPOINT_SCORE
-        # TODO make it so it doesn't have to check this every single time
-        self.letterboxd_link = self.getLetterboxdLink()
+        self.letterboxd_link = letterboxd
+        self.getmovieposter()
 
     #TODO Add ability to get rankings from various websites like Letterboxd, IMDB, Rotten Tomatoes, etc.
 
@@ -24,15 +26,17 @@ class Movie:
         name_in_link = slugify(self.name)
         link = f"https://letterboxd.com/film/{name_in_link}/"
         is_link_valid = check_letterboxd_link(link)
-        print(f"{is_link_valid}")
-
-        # TODO add this to the database
-
-    def getLetterboxdScore(self):
-        pass
+        if is_link_valid:
+            return link
+        else:
+            print(f"{self.name} has an invalid movie name. Fix it.")
+            return "INVALID LINK"
 
     def getmovieposter(self):
-        pass
+        path_name = self.letterboxd_link.split('/')[-2]
+        if not (f"{path_name}.jpg" in os.listdir("data/movie-posters")):
+            poster = MoviePoster(self.letterboxd_link)
+            self.movie_poster_path = poster.save_path
 
     def __eq__(self, other: "Movie"):
         if self.name == other.name and self.release_year == other.release_year:

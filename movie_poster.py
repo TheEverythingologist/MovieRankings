@@ -2,11 +2,14 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from pathlib import Path
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import requests
 import os
 import re
+import warnings
+
 
 class MoviePoster:
     def __init__(self, letterboxd_url: str):
@@ -18,14 +21,21 @@ class MoviePoster:
         return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
 
     def get_letterboxd_poster_url_with_selenium(self, movie_url):
+        warnings.filterwarnings("ignore")
+
         options = Options()
         options.add_argument("--headless")  # Run headless
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
+        options.add_experimental_option("excludeSwitches", ["enable-logging"])
+        options.add_argument("--log-level=3")  # 0 = INFO, 3 = FATAL
 
         # Set up Chrome service properly
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
+        service = Service(
+            executable_path="chromedriver.exe",
+            log_path=Path.cwd() / "NUL"  # For Windows; use "/dev/null" on Mac/Linux
+            )
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
         try:
             driver.get(movie_url)
@@ -59,5 +69,5 @@ class MoviePoster:
         self.download_image(poster_url, filename)
 
 # Example usage
-movie_url = "https://letterboxd.com/film/the-lord-of-the-rings-the-two-towers/"
+movie_url = "https://letterboxd.com/film/the-social-network/"
 dumm = MoviePoster(movie_url)

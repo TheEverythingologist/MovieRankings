@@ -69,5 +69,6 @@ class MoviePoster:
         self.download_image(poster_url, filename)
 
 # Example usage
-movie_url = "https://letterboxd.com/film/the-social-network/"
-dumm = MoviePoster(movie_url)
+if __name__ == "__main__":
+    movie_url = "https://letterboxd.com/film/the-social-network/"
+    dumm = MoviePoster(movie_url)

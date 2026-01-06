@@ -9,7 +9,7 @@ class Interface:
         option1 = movie_name1
         option2 = movie_name2
 
-        os.system('clear')
+        os.system('cls')
         print(f"Option 1: {option1}")
         print(f"Option 2: {option2}")
         user_input = input("\nPress '1' for Option 1 or '2' for Option 2.\n")

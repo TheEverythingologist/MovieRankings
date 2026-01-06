@@ -24,32 +24,39 @@ class MoviePoster:
         warnings.filterwarnings("ignore")
 
         options = Options()
-        options.add_argument("--headless")  # Run headless
+        options.add_argument("--headless=new")
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
+        options.add_argument("--log-level=3")
         options.add_experimental_option("excludeSwitches", ["enable-logging"])
-        options.add_argument("--log-level=3")  # 0 = INFO, 3 = FATAL
 
-        # Set up Chrome service properly
-        service = Service(
-            executable_path="chromedriver.exe",
-            log_path=Path.cwd() / "NUL"  # For Windows; use "/dev/null" on Mac/Linux
-            )
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()),
+            options=options
+        )
 
         try:
             driver.get(movie_url)
-            time.sleep(3)  # Wait for JavaScript to load
+            time.sleep(2)
 
-            # Find the image inside the film-poster container
-            poster_img = driver.find_element(By.CSS_SELECTOR, "div.film-poster img")
+            poster = driver.find_element(By.CSS_SELECTOR, "div.film-poster img")
 
-            # Prefer srcset for higher res if available
-            poster_url = poster_img.get_attribute("srcset")
-            if poster_url:
-                return poster_url.strip().split()[-2]  # Get the highest-res image
-            else:
-                return poster_img.get_attribute("src")
+            # Force lazy-load
+            driver.execute_script("arguments[0].scrollIntoView(true);", poster)
+            time.sleep(1)
+
+            # Try data-srcset first (highest quality)
+            data_srcset = poster.get_attribute("data-srcset")
+            if data_srcset:
+                return data_srcset.split(",")[-1].split()[0]
+
+            # Fallback to data-src
+            data_src = poster.get_attribute("data-src")
+            if data_src:
+                return data_src
+
+            # Last resort (will usually be empty-poster)
+            return poster.get_attribute("src")
 
         finally:
             driver.quit()

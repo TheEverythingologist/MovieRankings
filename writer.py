@@ -12,11 +12,14 @@ class MovieWriter:
     def add_to_csv(self, dataframe: pd.DataFrame, file_name:str):
         dataframe.to_csv(file_name, mode='a', header=False, index=False)
 
-    def generate_new_movie_df(self, list_of_new_movies: list[tuple[str, str]]):
-        _df = pd.DataFrame(list_of_new_movies, columns=["MovieName", "ReleaseYear"])
+    def generate_new_movie_df(self, list_of_new_movies: list[tuple[str, str, str]]):
+        new_movie_name = list_of_new_movies[0][0]
+        new_movie_year = list_of_new_movies[0][1]
+        _df = pd.DataFrame([[new_movie_name, new_movie_year]], columns=["MovieName", "ReleaseYear"])
         _df["EloRating"] = range(1000 + len(_df)//2 + 1, 1000 - len(_df)//2, -1)
         _df["TimesCompeted"] = 0
         _df.insert(0, "Rank", range(1, len(_df) + 1))  # Add "Rank" as the leftmost column
+        _df["LetterboxdLink"] = list_of_new_movies[0][2]
         return _df
     
     def update_database(self, movie_df:pd.DataFrame, movie1:_Competitor, movie2:_Competitor):

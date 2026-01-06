@@ -1,5 +1,7 @@
 import random
 import pandas as pd
+import os
+from pathlib import Path
 from movie import Movie
 from rankingalgorithm import RankingSystem, _Competitor
 from moviereader import MovieReader
@@ -8,19 +10,19 @@ from interface import Interface
 
 def main():
     # Read in movies list
-    path_to_list_of_movies = "C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/list_of_movies.txt"
+    path_to_list_of_movies = Path(os.getcwd() + "/data/list_of_movies.txt")
     movie_reader = MovieReader()
     new_movies_list = movie_reader.read_listofmovies(file_path=path_to_list_of_movies)
 
     # Add new movies to the database
-    path_to_database = "C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv"
+    path_to_database =  Path(os.getcwd() + "/data/database.csv")
     movie_writer = MovieWriter()
-    movie_df = movie_writer.generate_new_movie_df(list_of_new_movies=new_movies_list)
     if len(new_movies_list) > 0:
+        movie_df = movie_writer.generate_new_movie_df(list_of_new_movies=new_movies_list)
         movie_writer.add_to_csv(dataframe=movie_df, file_name=path_to_database)
 
     # Setup the elo system
-    movie_data_from_csv = movie_reader.read_database("C:/Users/TKD12/OneDrive/Desktop/CodingRepos/MovieRanking/data/database.csv")
+    movie_data_from_csv = movie_reader.read_database(path_to_database)
     elo_system = RankingSystem()
     elo_system.addMultiplePlayers(movie_data_from_csv)
     movie_df = pd.read_csv(path_to_database)

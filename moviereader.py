@@ -1,4 +1,7 @@
 import csv
+import requests
+from bs4 import BeautifulSoup
+from movie_poster import MoviePoster
 
 class MovieReader:
     #TODO There is some kind of issue regarding single quotes. Currently I have to manually add double quotes around the movie title. 
@@ -24,9 +27,12 @@ class MovieReader:
                     if line:  # Skip empty lines
                         try:
                             # Extract the name and year using rstrip and split
-                            name, year = line.rsplit(' (', 1)
-                            year = year.rstrip(')')  # Remove the closing parenthesis
-                            result.append((name.strip(), int(year)))
+                            link = line
+                            response = requests.get(link)
+                            soup = BeautifulSoup(response.content, 'html.parser')
+                            name = soup.find('div', {"class": "details"}).find("span", {"class": "name js-widont prettify"}).text
+                            year = soup.find('div', {"class": "details"}).find("span", {"class": "releasedate"}).text
+                            result.append((name.strip(), int(year.strip()), link))
                         except ValueError:
                             print(f"Skipping malformed line: {line}")
         except FileNotFoundError:
